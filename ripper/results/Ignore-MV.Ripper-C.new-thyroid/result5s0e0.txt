@@ -1,0 +1,13 @@
+@Number of Rules: 6
+if(thyroxin<=5.3 && TSH_value>1.5) (21/21)
+	output=hypo
+else if(TSH_value>7.7 && thyroxin<=6.8) (18/18)
+	output=hypo
+else if(thyroxin<=3.5) (12/12)
+	output=hypo
+else if(thyroxin>12.4 && TSH_value<=0.4) (29/29)
+	output=hyper
+else if(TSH_value<=0.0 && thyroxin>10.6 && T3resin<=111.0) (17/18)
+	output=hyper
+else 
+	output=normal

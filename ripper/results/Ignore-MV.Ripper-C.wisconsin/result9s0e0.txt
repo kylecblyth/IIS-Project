@@ -1,0 +1,15 @@
+@Number of Rules: 7
+if(cellShape>2.0 && cellSize>4.0) (154/155)
+	output=4
+else if(bareNuclei>2.0 && cellShape>2.0) (185/192)
+	output=4
+else if(normalNucleoli>2.0 && clumpThickness>5.0 && cellShape<=4.0) (27/29)
+	output=4
+else if(marginalAdhesion>3.0 && blandChromatin>2.0) (141/147)
+	output=4
+else if(bareNuclei>4.0 && marginalAdhesion>1.0) (152/158)
+	output=4
+else if(clumpThickness>8.0) (75/75)
+	output=4
+else 
+	output=2

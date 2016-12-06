@@ -1,0 +1,44 @@
+TEST RESULTS
+============
+Classifier= bupa 
+Fold 0 : CORRECT=0.5428571428571429 N/C=0.0 
+Fold 1 : CORRECT=0.5714285714285714 N/C=0.0 
+Fold 2 : CORRECT=0.6774193548387097 N/C=0.0 
+Fold 3 : CORRECT=0.6176470588235294 N/C=0.0 
+Fold 4 : CORRECT=0.6571428571428571 N/C=0.0 
+Fold 5 : CORRECT=0.5142857142857142 N/C=0.0 
+Fold 6 : CORRECT=0.6571428571428571 N/C=0.0 
+Fold 7 : CORRECT=0.7142857142857143 N/C=0.0 
+Fold 8 : CORRECT=0.6285714285714286 N/C=0.0 
+Fold 9 : CORRECT=0.7142857142857143 N/C=0.0 
+Global Classification Error + N/C:
+0.3704933586337761 
+stddev Global Classification Error + N/C:
+0.06518950492624352 
+Correctly classified:
+0.6295066413662239 
+Global N/C:
+0.0 
+
+TRAIN RESULTS
+============
+Classifier= bupa 
+Summary of data, Classifiers: bupa 
+Fold 0 : CORRECT=1.0 N/C=0.0 
+Fold 1 : CORRECT=1.0 N/C=0.0 
+Fold 2 : CORRECT=1.0 N/C=0.0 
+Fold 3 : CORRECT=1.0 N/C=0.0 
+Fold 4 : CORRECT=1.0 N/C=0.0 
+Fold 5 : CORRECT=1.0 N/C=0.0 
+Fold 6 : CORRECT=1.0 N/C=0.0 
+Fold 7 : CORRECT=1.0 N/C=0.0 
+Fold 8 : CORRECT=1.0 N/C=0.0 
+Fold 9 : CORRECT=1.0 N/C=0.0 
+Global Classification Error + N/C:
+0.0 
+stddev Global Classification Error + N/C:
+0.0 
+Correctly classified:
+1.0 
+Global N/C:
+0.0 

@@ -1,0 +1,49 @@
+@Number of Rules: 24
+if(mcv>88.0 && gammagt<=22.0 && sgpt>19.0) (37/45)
+	output=1
+else if(drinks>5.0 && sgpt>36.0 && alkphos<=83.0 && sgot<=41.0) (16/17)
+	output=1
+else if(sgot<=22.0 && sgpt>21.0 && gammagt<=28.0) (43/51)
+	output=1
+else if(gammagt<=31.0 && sgpt>26.0 && alkphos>57.0 && mcv<=93.0 && sgot<=26.0) (15/16)
+	output=1
+else if(alkphos>78.0 && sgpt<=20.0 && mcv>89.0) (10/12)
+	output=1
+else if(gammagt<=15.0 && alkphos>61.0 && sgpt>24.0) (15/15)
+	output=1
+else if(drinks>5.0 && mcv>93.0 && alkphos>93.0) (4/4)
+	output=1
+else if(drinks>5.0 && mcv>90.0 && sgot<=22.0 && gammagt<=54.0) (12/13)
+	output=1
+else if(gammagt<=21.0 && sgpt>19.0 && alkphos>49.0 && sgot<=20.0) (26/28)
+	output=1
+else if(gammagt>55.0 && sgpt>34.0 && sgot<=35.0 && drinks<=0.5) (3/4)
+	output=1
+else if(alkphos>61.0 && gammagt<=20.0 && sgpt>24.0) (23/25)
+	output=1
+else if(drinks>8.0 && mcv>91.0 && alkphos>57.0) (7/9)
+	output=1
+else if(alkphos<=69.0 && sgpt>19.0 && sgot<=24.0 && mcv<=78.0) (1/1)
+	output=1
+else if(gammagt<=7.0) (9/9)
+	output=1
+else if(drinks<=2.0 && mcv<=82.0 && gammagt>9.0) (4/6)
+	output=1
+else if(alkphos>59.0 && gammagt<=22.0 && mcv>90.0 && sgot<=20.0) (20/21)
+	output=1
+else if(sgpt>21.0 && sgot<=22.0 && gammagt<=29.0 && mcv>88.0) (27/32)
+	output=1
+else if(sgpt>34.0 && drinks>5.0 && gammagt>67.0 && alkphos<=93.0) (10/13)
+	output=1
+else if(drinks<=3.0 && sgpt>27.0 && sgot<=24.0 && gammagt<=42.0 && mcv<=90.0) (10/12)
+	output=1
+else if(drinks<=3.0 && sgpt>42.0 && sgot<=32.0 && mcv>86.0) (3/5)
+	output=1
+else if(drinks<=2.0 && gammagt>30.0 && mcv<=91.0 && alkphos>78.0 && sgpt>35.0) (4/8)
+	output=1
+else if(gammagt>34.0 && sgot<=23.0 && drinks<=2.0 && mcv>83.0 && sgpt<=31.0 && alkphos<=57.0) (1/2)
+	output=1
+else if(sgot<=22.0 && alkphos>78.0 && drinks<=0.5 && sgpt<=17.0) (2/2)
+	output=1
+else 
+	output=2

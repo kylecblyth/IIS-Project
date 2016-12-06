@@ -1,0 +1,11 @@
+@Number of Rules: 5
+if(at7<=1.31 && at10>3.6) (40/40)
+	output=3
+else if(at12<=2.15 && at10>3.4 && at3>2.02) (41/41)
+	output=3
+else if(at13>750.0 && at10>3.35) (52/58)
+	output=1
+else if(at1>13.05 && at13>630.0 && at2>0.94) (48/60)
+	output=1
+else 
+	output=2

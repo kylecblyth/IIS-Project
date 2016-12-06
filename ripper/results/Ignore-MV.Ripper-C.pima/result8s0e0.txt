@@ -1,0 +1,45 @@
+@Number of Rules: 22
+if('plas'>128.0 && 'mass'>30.1 && 'pedi'>0.427 && 'preg'>6.0) (30/32)
+	output=tested_positive
+else if('plas'>123.0 && 'mass'>29.9) (144/204)
+	output=tested_positive
+else if('plas'>127.0 && 'mass'>29.9 && 'pedi'>0.42 && 'preg'>6.0) (31/33)
+	output=tested_positive
+else if('preg'>6.0 && 'age'<=33.0 && 'pedi'>0.167) (13/15)
+	output=tested_positive
+else if('age'>34.0 && 'plas'>100.0 && 'mass'>27.8 && 'skin'<=39.0 && 'preg'>6.0) (49/61)
+	output=tested_positive
+else if('age'>30.0 && 'plas'>107.0) (139/226)
+	output=tested_positive
+else if('mass'>31.9 && 'plas'>92.0 && 'skin'<=25.0 && 'pres'>76.0 && 'age'<=28.0) (5/9)
+	output=tested_positive
+else if('mass'>31.2 && 'plas'>87.0 && 'pres'<=66.0 && 'pedi'>0.499) (24/34)
+	output=tested_positive
+else if('age'>36.0 && 'pedi'>0.27 && 'mass'>35.3 && 'plas'<=102.0) (7/10)
+	output=tested_positive
+else if('plas'>128.0 && 'age'>26.0 && 'skin'>0.0) (78/110)
+	output=tested_positive
+else if('mass'>27.4 && 'skin'<=12.0 && 'plas'>110.0 && 'preg'<=0.0) (10/13)
+	output=tested_positive
+else if('age'>25.0 && 'pedi'>0.738 && 'skin'<=31.0 && 'pres'>80.0) (11/15)
+	output=tested_positive
+else if('skin'<=7.0 && 'plas'>118.0 && 'pres'<=54.0) (13/18)
+	output=tested_positive
+else if('preg'>11.0 && 'mass'<=29.7) (3/5)
+	output=tested_positive
+else if('mass'>46.8) (13/16)
+	output=tested_positive
+else if('pedi'>0.677 && 'preg'>8.0) (16/19)
+	output=tested_positive
+else if('plas'>106.0 && 'insu'<=48.0 && 'pedi'>0.343 && 'mass'<=29.7 && 'pres'>58.0) (11/29)
+	output=tested_positive
+else if('mass'>45.3 && 'pres'>74.0) (18/25)
+	output=tested_positive
+else if('pedi'<=0.197 && 'mass'>31.2 && 'preg'>2.0 && 'age'<=31.0 && 'pres'<=74.0 && 'plas'<=95.0) (1/1)
+	output=tested_positive
+else if('pedi'<=0.197 && 'skin'>29.0 && 'age'<=25.0 && 'preg'>2.0) (1/1)
+	output=tested_positive
+else if('skin'>44.0 && 'mass'<=33.7) (2/5)
+	output=tested_positive
+else 
+	output=tested_negative
