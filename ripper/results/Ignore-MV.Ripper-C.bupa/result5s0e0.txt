@@ -1,0 +1,59 @@
+@Number of Rules: 29
+if(gammagt<=21.0 && sgpt>24.0 && alkphos>48.0) (31/35)
+	output=1
+else if(gammagt<=12.0 && mcv>87.0 && sgpt>20.0) (16/17)
+	output=1
+else if(alkphos>59.0 && sgot<=19.0 && sgpt>18.0) (24/28)
+	output=1
+else if(drinks>5.0 && mcv>91.0 && gammagt<=41.0 && alkphos<=80.0) (13/14)
+	output=1
+else if(alkphos>76.0 && mcv>89.0 && gammagt<=27.0) (16/20)
+	output=1
+else if(sgpt>26.0 && mcv>96.0 && alkphos>60.0) (9/11)
+	output=1
+else if(sgpt>26.0 && sgot<=24.0 && gammagt<=28.0 && drinks<=3.0 && mcv<=90.0) (12/13)
+	output=1
+else if(gammagt<=19.0 && sgpt>19.0 && sgot<=21.0 && drinks<=3.0) (28/30)
+	output=1
+else if(alkphos>76.0 && gammagt>53.0 && mcv>90.0 && sgot<=43.0) (10/12)
+	output=1
+else if(sgot<=24.0 && drinks>7.0 && sgpt>26.0) (8/8)
+	output=1
+else if(gammagt<=7.0) (9/9)
+	output=1
+else if(gammagt<=20.0 && sgpt>22.0 && sgot<=20.0 && mcv>85.0) (20/20)
+	output=1
+else if(drinks<=2.0 && sgpt>27.0 && mcv<=85.0 && alkphos>74.0 && sgot>20.0) (4/4)
+	output=1
+else if(sgpt>26.0 && mcv<=90.0 && gammagt<=17.0) (11/12)
+	output=1
+else if(gammagt<=20.0 && sgpt>22.0 && mcv>85.0 && sgot<=21.0) (21/21)
+	output=1
+else if(gammagt>53.0 && sgpt>67.0 && alkphos<=69.0) (3/4)
+	output=1
+else if(alkphos<=63.0 && gammagt>30.0 && mcv<=81.0) (1/1)
+	output=1
+else if(alkphos<=54.0 && drinks>5.0 && mcv<=93.0) (4/8)
+	output=1
+else if(gammagt<=21.0 && drinks>6.0) (4/7)
+	output=1
+else if(sgpt<=18.0 && drinks<=3.0 && sgot>20.0 && gammagt>10.0) (3/8)
+	output=1
+else if(drinks<=2.0 && mcv>95.0 && gammagt<=28.0 && sgot>17.0) (3/4)
+	output=1
+else if(sgot<=23.0 && gammagt>34.0 && mcv>89.0 && drinks<=2.0) (6/8)
+	output=1
+else if(sgot<=8.0 && mcv<=85.0) (1/1)
+	output=1
+else if(sgot<=17.0 && mcv<=82.0) (2/2)
+	output=1
+else if(gammagt<=20.0 && sgpt>20.0 && mcv>89.0) (25/28)
+	output=1
+else if(sgot>28.0 && sgpt<=28.0 && mcv>89.0) (3/4)
+	output=1
+else if(alkphos<=54.0 && gammagt>34.0 && sgpt<=25.0 && mcv<=91.0) (1/2)
+	output=1
+else if(sgot<=17.0 && alkphos>74.0 && mcv>88.0 && gammagt<=16.0) (3/3)
+	output=1
+else 
+	output=2

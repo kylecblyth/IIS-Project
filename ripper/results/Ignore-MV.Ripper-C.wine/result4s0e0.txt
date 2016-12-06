@@ -1,0 +1,13 @@
+@Number of Rules: 6
+if(at7<=0.96 && at2>0.94) (36/36)
+	output=3
+else if(at12<=1.47) (10/10)
+	output=3
+else if(at13>750.0 && at1>12.47) (51/55)
+	output=1
+else if(at5>112.0 && at1>11.81 && at2>1.52) (14/19)
+	output=1
+else if(at2>3.87 && at1>12.42 && at3>2.13) (3/16)
+	output=1
+else 
+	output=2
