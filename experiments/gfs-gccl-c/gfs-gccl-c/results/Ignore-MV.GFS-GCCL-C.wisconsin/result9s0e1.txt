@@ -1,0 +1,232 @@
+
+Rule base with 32 rules, 47 variables and 47 labels.
+-----------------------------------------------------------------------------------
+
+Rule 1:
+
+If "X2 is Label 1" and "X6 is Label 1" and "X9 is Label 1" then Class is 2 with certainty degree 0.9991554589025188
+
+Fitness: 301
+
+
+Rule 2:
+
+If "X3 is Label 5" then Class is 4 with certainty degree 1.0
+
+Fitness: 55
+
+
+Rule 3:
+
+If "X6 is Label 5" then Class is 4 with certainty degree 0.9503546099290779
+
+Fitness: 53
+
+
+Rule 4:
+
+If "X1 is Label 5" then Class is 4 with certainty degree 0.9878603945371776
+
+Fitness: 31
+
+
+Rule 5:
+
+If "X8 is Label 5" then Class is 4 with certainty degree 0.9894551845342706
+
+Fitness: 23
+
+
+Rule 6:
+
+If "X1 is Label 1" and "X3 is Label 1" then Class is 2 with certainty degree 0.9973465416592959
+
+Fitness: 16
+
+
+Rule 7:
+
+If "X3 is Label 1" then Class is 2 with certainty degree 0.9562278725458642
+
+Fitness: 15
+
+
+Rule 8:
+
+If "X3 is Label 1" and "X7 is Label 1" then Class is 2 with certainty degree 0.9878353287662462
+
+Fitness: 14
+
+
+Rule 9:
+
+If "X7 is Label 1" then Class is 2 with certainty degree 0.9273607748184017
+
+Fitness: 11
+
+
+Rule 10:
+
+If "X2 is Label 4" then Class is 4 with certainty degree 0.978494623655914
+
+Fitness: 8
+
+
+Rule 11:
+
+If "X2 is Label 1" and "X3 is Label 1" and "X9 is Label 1" then Class is 2 with certainty degree 0.9814463622460128
+
+Fitness: 8
+
+
+Rule 12:
+
+If "X1 is Label 2" then Class is 2 with certainty degree 0.6950444726810677
+
+Fitness: 6
+
+
+Rule 13:
+
+If "X1 is Label 4" then Class is 4 with certainty degree 0.7785714285714281
+
+Fitness: 6
+
+
+Rule 14:
+
+If "X2 is Label 3" then Class is 4 with certainty degree 0.9232409381663114
+
+Fitness: 6
+
+
+Rule 15:
+
+If "X5 is Label 2" and "X6 is Label 1" then Class is 2 with certainty degree 0.9467983434214717
+
+Fitness: 5
+
+
+Rule 16:
+
+If "X3 is Label 4" then Class is 4 with certainty degree 0.9541284403669723
+
+Fitness: 5
+
+
+Rule 17:
+
+If "X1 is Label 5" and "X2 is Label 5" then Class is 4 with certainty degree 1.0
+
+Fitness: 5
+
+
+Rule 18:
+
+If "X2 is Label 1" and "X9 is Label 1" then Class is 2 with certainty degree 0.9566606473121267
+
+Fitness: 4
+
+
+Rule 19:
+
+If "X1 is Label 1" then Class is 2 with certainty degree 0.9216494845360824
+
+Fitness: 4
+
+
+Rule 20:
+
+If "X9 is Label 2" then Class is 4 with certainty degree 0.8199052132701421
+
+Fitness: 4
+
+
+Rule 21:
+
+If "X6 is Label 4" then Class is 4 with certainty degree 0.8715596330275228
+
+Fitness: 4
+
+
+Rule 22:
+
+If "X5 is Label 1" then Class is 2 with certainty degree 0.8681111634479504
+
+Fitness: 3
+
+
+Rule 23:
+
+If "X1 is Label 1" and "X7 is Label 1" then Class is 2 with certainty degree 0.9926670287887019
+
+Fitness: 3
+
+
+Rule 24:
+
+If "X4 is Label 5" and "X8 is Label 5" then Class is 4 with certainty degree 1.0
+
+Fitness: 3
+
+
+Rule 25:
+
+If "X2 is Label 5" and "X5 is Label 5" then Class is 4 with certainty degree 1.0
+
+Fitness: 2
+
+
+Rule 26:
+
+If "X8 is Label 4" then Class is 4 with certainty degree 0.8068181818181817
+
+Fitness: 1
+
+
+Rule 27:
+
+If "X4 is Label 4" then Class is 4 with certainty degree 0.9565217391304347
+
+Fitness: 1
+
+
+Rule 28:
+
+If "X9 is Label 5" then Class is 4 with certainty degree 0.9838709677419355
+
+Fitness: 1
+
+
+Rule 29:
+
+If "X5 is Label 5" and "X9 is Label 2" then Class is 4 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 30:
+
+If "X9 is Label 1" then Class is 2 with certainty degree 0.4782608695652172
+
+Fitness: 1
+
+
+Rule 31:
+
+If "X3 is Label 3" then Class is 4 with certainty degree 0.7953321364452427
+
+Fitness: 1
+
+
+Rule 32:
+
+If "X1 is Label 5" and "X7 is Label 5" and "X9 is Label 1" then Class is 4 with certainty degree 1.0
+
+Fitness: 1
+
+
+
+Training Accuracy:	98.20554649265905%
+Test Accuracy:		91.42857142857143%
+

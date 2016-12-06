@@ -1,0 +1,246 @@
+
+Rule base with 34 rules, 49 variables and 49 labels.
+-----------------------------------------------------------------------------------
+
+Rule 1:
+
+If "X4 is Label 1" then Class is normal with certainty degree 0.6307141695135839
+
+Fitness: 38
+
+
+Rule 2:
+
+If "X1 is Label 3" then Class is normal with certainty degree 0.7168998251311518
+
+Fitness: 24
+
+
+Rule 3:
+
+If "X2 is Label 2" and "X4 is Label 1" then Class is normal with certainty degree 0.8562120985415914
+
+Fitness: 22
+
+
+Rule 4:
+
+If "X2 is Label 3" then Class is normal with certainty degree 0.7213622291021672
+
+Fitness: 12
+
+
+Rule 5:
+
+If "X2 is Label 2" then Class is normal with certainty degree 0.7617709065354884
+
+Fitness: 8
+
+
+Rule 6:
+
+If "X3 is Label 2" then Class is normal with certainty degree 0.6576148879605012
+
+Fitness: 6
+
+
+Rule 7:
+
+If "X2 is Label 2" and "X5 is Label 1" then Class is normal with certainty degree 0.9123431338863529
+
+Fitness: 6
+
+
+Rule 8:
+
+If "X2 is Label 1" then Class is hypo with certainty degree 0.8506637168141592
+
+Fitness: 5
+
+
+Rule 9:
+
+If "X1 is Label 3" and "X2 is Label 2" then Class is normal with certainty degree 0.864532912712444
+
+Fitness: 5
+
+
+Rule 10:
+
+If "X2 is Label 4" then Class is hyper with certainty degree 0.8784683684794673
+
+Fitness: 5
+
+
+Rule 11:
+
+If "X1 is Label 4" and "X4 is Label 1" then Class is normal with certainty degree 0.7921120642702838
+
+Fitness: 3
+
+
+Rule 12:
+
+If "X5 is Label 3" then Class is hypo with certainty degree 0.9965648854961834
+
+Fitness: 3
+
+
+Rule 13:
+
+If "X3 is Label 4" then Class is hyper with certainty degree 1.0
+
+Fitness: 3
+
+
+Rule 14:
+
+If "X3 is Label 3" then Class is hyper with certainty degree 0.928104575163399
+
+Fitness: 3
+
+
+Rule 15:
+
+If "X2 is Label 5" then Class is hyper with certainty degree 1.0
+
+Fitness: 2
+
+
+Rule 16:
+
+If "X5 is Label 5" then Class is hypo with certainty degree 1.0
+
+Fitness: 2
+
+
+Rule 17:
+
+If "X5 is Label 4" then Class is hypo with certainty degree 1.0
+
+Fitness: 2
+
+
+Rule 18:
+
+If "X3 is Label 2" and "X5 is Label 1" then Class is normal with certainty degree 0.6902737525285682
+
+Fitness: 2
+
+
+Rule 19:
+
+If "X1 is Label 4" and "X2 is Label 1" then Class is hypo with certainty degree 0.9732900153762214
+
+Fitness: 2
+
+
+Rule 20:
+
+If "X1 is Label 4" and "X5 is Label 1" then Class is normal with certainty degree 0.7883935785866202
+
+Fitness: 1
+
+
+Rule 21:
+
+If "X4 is Label 3" then Class is hypo with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 22:
+
+If "X5 is Label 1" then Class is normal with certainty degree 0.6026376998069976
+
+Fitness: 1
+
+
+Rule 23:
+
+If then Class is normal with certainty degree 0.5438144329896907
+
+Fitness: 1
+
+
+Rule 24:
+
+If "X4 is Label 4" then Class is hypo with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 25:
+
+If "X1 is Label 1" then Class is hyper with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 26:
+
+If "X3 is Label 5" then Class is hyper with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 27:
+
+If "X4 is Label 5" then Class is hypo with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 28:
+
+If "X1 is Label 3" and "X4 is Label 1" then Class is normal with certainty degree 0.7421834430960899
+
+Fitness: 1
+
+
+Rule 29:
+
+If "X4 is Label 1" and "X5 is Label 2" then Class is normal with certainty degree 0.7186627745704823
+
+Fitness: 1
+
+
+Rule 30:
+
+If "X2 is Label 4" and "X5 is Label 1" then Class is hyper with certainty degree 0.8923207619709052
+
+Fitness: 1
+
+
+Rule 31:
+
+If "X3 is Label 2" and "X4 is Label 1" then Class is normal with certainty degree 0.702152068144228
+
+Fitness: 1
+
+
+Rule 32:
+
+If "X1 is Label 3" and "X5 is Label 1" then Class is normal with certainty degree 0.742259760546126
+
+Fitness: 1
+
+
+Rule 33:
+
+If "X1 is Label 4" and "X3 is Label 2" and "X4 is Label 1" then Class is normal with certainty degree 0.8376698470238093
+
+Fitness: 1
+
+
+Rule 34:
+
+If "X1 is Label 3" and "X2 is Label 2" and "X4 is Label 1" then Class is normal with certainty degree 0.8938685383872852
+
+Fitness: 1
+
+
+
+Training Accuracy:	86.5979381443299%
+Test Accuracy:		95.23809523809523%
+

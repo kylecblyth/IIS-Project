@@ -1,0 +1,109 @@
+@Classifier number 0: 
+Number of Rules: 5
+Rule[1]: IF  cellSize <= 3.0 AND  bareNuclei <= 2.0  THEN Class = 2 (0.5986943/0.60195696)
+Rule[2]: IF  cellSize <= 3.0 AND  bareNuclei > 2.0 AND  cellShape <= 2.0 AND  bareNuclei <= 5.0  THEN Class = 2 (0.034257747/0.035889067)
+Rule[3]: IF  cellSize <= 3.0 AND  bareNuclei > 2.0 AND  cellShape <= 2.0 AND  bareNuclei > 5.0  THEN Class = 4 (0.008156607/0.009787928)
+Rule[4]: IF  cellSize <= 3.0 AND  bareNuclei > 2.0 AND  cellShape > 2.0  THEN Class = 4 (0.039151706/0.042414345)
+Rule[5]: IF  cellSize > 3.0  THEN Class = 4 (0.29853153/0.30995077)
+
+@Classifier number 1: 
+Number of Rules: 7
+Rule[1]: IF  cellSize <= 4.0 AND  normalNucleoli <= 8.0 AND  mitoses <= 3.0 AND  clumpThickness <= 8.0 AND  bareNuclei <= 3.0 AND  mitoses <= 2.0  THEN Class = 2 (23.306322/23.468771)
+Rule[2]: IF  cellSize <= 4.0 AND  normalNucleoli <= 8.0 AND  mitoses <= 3.0 AND  clumpThickness <= 8.0 AND  bareNuclei <= 3.0 AND  mitoses > 2.0  THEN Class = 4 (0.054150388/0.054150388)
+Rule[3]: IF  cellSize <= 4.0 AND  normalNucleoli <= 8.0 AND  mitoses <= 3.0 AND  clumpThickness <= 8.0 AND  bareNuclei > 3.0  THEN Class = 2 (6.5415053/8.624515)
+Rule[4]: IF  cellSize <= 4.0 AND  normalNucleoli <= 8.0 AND  mitoses <= 3.0 AND  clumpThickness > 8.0  THEN Class = 4 (1.0288574/1.0288574)
+Rule[5]: IF  cellSize <= 4.0 AND  normalNucleoli <= 8.0 AND  mitoses > 3.0  THEN Class = 4 (1.162451/1.3249022)
+Rule[6]: IF  cellSize <= 4.0 AND  normalNucleoli > 8.0  THEN Class = 4 (1.5956539/1.5956539)
+Rule[7]: IF  cellSize > 4.0  THEN Class = 4 (8.393323/9.393323)
+
+@Classifier number 2: 
+Number of Rules: 10
+Rule[1]: IF  marginalAdhesion <= 5.0 AND  blandChromatin <= 4.0 AND  epithelialSize <= 1.0  THEN Class = 4 (1.0/1.2582306)
+Rule[2]: IF  marginalAdhesion <= 5.0 AND  blandChromatin <= 4.0 AND  epithelialSize > 1.0 AND  clumpThickness <= 6.0  THEN Class = 2 (3.7345333/4.1553273)
+Rule[3]: IF  marginalAdhesion <= 5.0 AND  blandChromatin <= 4.0 AND  epithelialSize > 1.0 AND  clumpThickness > 6.0 AND  bareNuclei <= 2.0  THEN Class = 2 (0.121695474/0.19285269)
+Rule[4]: IF  marginalAdhesion <= 5.0 AND  blandChromatin <= 4.0 AND  epithelialSize > 1.0 AND  clumpThickness > 6.0 AND  bareNuclei > 2.0  THEN Class = 4 (0.25002414/0.25002414)
+Rule[5]: IF  marginalAdhesion <= 5.0 AND  blandChromatin > 4.0 AND  epithelialSize <= 2.0 AND  clumpThickness <= 6.0  THEN Class = 2 (0.034013595/0.034013595)
+Rule[6]: IF  marginalAdhesion <= 5.0 AND  blandChromatin > 4.0 AND  epithelialSize <= 2.0 AND  clumpThickness > 6.0  THEN Class = 4 (0.034013595/0.034013595)
+Rule[7]: IF  marginalAdhesion <= 5.0 AND  blandChromatin > 4.0 AND  epithelialSize > 2.0  THEN Class = 4 (0.8440144/0.960041)
+Rule[8]: IF  marginalAdhesion > 5.0 AND  cellShape <= 2.0 AND  mitoses <= 1.0  THEN Class = 2 (0.02267573/0.02267573)
+Rule[9]: IF  marginalAdhesion > 5.0 AND  cellShape <= 2.0 AND  mitoses > 1.0  THEN Class = 4 (0.07115719/0.07115719)
+Rule[10]: IF  marginalAdhesion > 5.0 AND  cellShape > 2.0  THEN Class = 4 (0.8351066/0.8351066)
+
+@Classifier number 3: 
+Number of Rules: 11
+Rule[1]: IF  bareNuclei <= 1.0 AND  cellSize <= 3.0  THEN Class = 2 (3.7803838/3.806556)
+Rule[2]: IF  bareNuclei <= 1.0 AND  cellSize > 3.0  THEN Class = 4 (0.26320535/0.28937754)
+Rule[3]: IF  bareNuclei > 1.0 AND  cellSize <= 8.0 AND  blandChromatin <= 1.0  THEN Class = 2 (0.25533667/0.2610056)
+Rule[4]: IF  bareNuclei > 1.0 AND  cellSize <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize <= 1.0  THEN Class = 4 (1.0/1.0)
+Rule[5]: IF  bareNuclei > 1.0 AND  cellSize <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize > 1.0 AND  cellSize <= 4.0 AND  blandChromatin <= 5.0 AND  cellSize <= 1.0 AND  normalNucleoli <= 3.0  THEN Class = 2 (0.09986829/0.09986829)
+Rule[6]: IF  bareNuclei > 1.0 AND  cellSize <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize > 1.0 AND  cellSize <= 4.0 AND  blandChromatin <= 5.0 AND  cellSize <= 1.0 AND  normalNucleoli > 3.0  THEN Class = 4 (0.011337865/0.011337865)
+Rule[7]: IF  bareNuclei > 1.0 AND  cellSize <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize > 1.0 AND  cellSize <= 4.0 AND  blandChromatin <= 5.0 AND  cellSize > 1.0  THEN Class = 4 (1.3455746/1.5592967)
+Rule[8]: IF  bareNuclei > 1.0 AND  cellSize <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize > 1.0 AND  cellSize <= 4.0 AND  blandChromatin > 5.0  THEN Class = 2 (0.31619558/0.4711173)
+Rule[9]: IF  bareNuclei > 1.0 AND  cellSize <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize > 1.0 AND  cellSize > 4.0  THEN Class = 4 (0.67465734/0.67465734)
+Rule[10]: IF  bareNuclei > 1.0 AND  cellSize > 8.0 AND  cellSize <= 9.0  THEN Class = 2 (1.0/1.0283445)
+Rule[11]: IF  bareNuclei > 1.0 AND  cellSize > 8.0 AND  cellSize > 9.0  THEN Class = 4 (0.41102484/0.41102484)
+
+@Classifier number 4: 
+Number of Rules: 5
+Rule[1]: IF  blandChromatin <= 4.0 AND  normalNucleoli <= 7.0 AND  clumpThickness <= 8.0  THEN Class = 2 (10.945679/13.141459)
+Rule[2]: IF  blandChromatin <= 4.0 AND  normalNucleoli <= 7.0 AND  clumpThickness > 8.0  THEN Class = 4 (0.39848134/0.39848134)
+Rule[3]: IF  blandChromatin <= 4.0 AND  normalNucleoli > 7.0  THEN Class = 4 (0.8045739/0.817329)
+Rule[4]: IF  blandChromatin > 4.0 AND  cellShape <= 1.0  THEN Class = 2 (0.24542017/0.25817528)
+Rule[5]: IF  blandChromatin > 4.0 AND  cellShape > 1.0  THEN Class = 4 (5.5851703/5.921203)
+
+@Classifier number 5: 
+Number of Rules: 9
+Rule[1]: IF  bareNuclei <= 2.0 AND  epithelialSize <= 3.0  THEN Class = 2 (2.631236/2.649159)
+Rule[2]: IF  bareNuclei <= 2.0 AND  epithelialSize > 3.0  THEN Class = 4 (0.45054817/0.49453664)
+Rule[3]: IF  bareNuclei > 2.0 AND  clumpThickness <= 8.0 AND  blandChromatin <= 1.0  THEN Class = 2 (0.08354345/0.08354345)
+Rule[4]: IF  bareNuclei > 2.0 AND  clumpThickness <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize <= 1.0  THEN Class = 4 (1.0/1.0)
+Rule[5]: IF  bareNuclei > 2.0 AND  clumpThickness <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize > 1.0 AND  cellShape <= 2.0  THEN Class = 2 (0.16866507/0.19034752)
+Rule[6]: IF  bareNuclei > 2.0 AND  clumpThickness <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize > 1.0 AND  cellShape > 2.0 AND  marginalAdhesion <= 4.0  THEN Class = 4 (1.5555632/1.6510838)
+Rule[7]: IF  bareNuclei > 2.0 AND  clumpThickness <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize > 1.0 AND  cellShape > 2.0 AND  marginalAdhesion > 4.0 AND  marginalAdhesion <= 5.0  THEN Class = 2 (0.42109767/0.73722315)
+Rule[8]: IF  bareNuclei > 2.0 AND  clumpThickness <= 8.0 AND  blandChromatin > 1.0 AND  epithelialSize > 1.0 AND  cellShape > 2.0 AND  marginalAdhesion > 4.0 AND  marginalAdhesion > 5.0  THEN Class = 4 (0.5537993/0.5537993)
+Rule[9]: IF  bareNuclei > 2.0 AND  clumpThickness > 8.0  THEN Class = 4 (0.7410708/0.7410708)
+
+@Classifier number 6: 
+Number of Rules: 7
+Rule[1]: IF  bareNuclei <= 3.0 AND  marginalAdhesion <= 3.0 AND  clumpThickness <= 8.0 AND  mitoses <= 2.0  THEN Class = 2 (5.8448553/5.8951373)
+Rule[2]: IF  bareNuclei <= 3.0 AND  marginalAdhesion <= 3.0 AND  clumpThickness <= 8.0 AND  mitoses > 2.0  THEN Class = 4 (0.13021432/0.14747982)
+Rule[3]: IF  bareNuclei <= 3.0 AND  marginalAdhesion <= 3.0 AND  clumpThickness > 8.0  THEN Class = 4 (0.41141266/0.41141266)
+Rule[4]: IF  bareNuclei <= 3.0 AND  marginalAdhesion > 3.0  THEN Class = 4 (0.7428861/0.83743745)
+Rule[5]: IF  bareNuclei > 3.0 AND  cellShape <= 4.0 AND  normalNucleoli <= 6.0  THEN Class = 4 (1.9728584/2.1493595)
+Rule[6]: IF  bareNuclei > 3.0 AND  cellShape <= 4.0 AND  normalNucleoli > 6.0  THEN Class = 2 (0.43543103/0.59969413)
+Rule[7]: IF  bareNuclei > 3.0 AND  cellShape > 4.0  THEN Class = 4 (5.597981/5.669824)
+
+@Classifier number 7: 
+Number of Rules: 5
+Rule[1]: IF  normalNucleoli <= 2.0 AND  clumpThickness <= 6.0 AND  blandChromatin <= 7.0  THEN Class = 2 (17.256676/18.030375)
+Rule[2]: IF  normalNucleoli <= 2.0 AND  clumpThickness <= 6.0 AND  blandChromatin > 7.0  THEN Class = 4 (0.15410273/0.15410273)
+Rule[3]: IF  normalNucleoli <= 2.0 AND  clumpThickness > 6.0  THEN Class = 4 (1.602459/1.8962355)
+Rule[4]: IF  normalNucleoli > 2.0 AND  clumpThickness <= 3.0  THEN Class = 2 (1.4983087/1.9152615)
+Rule[5]: IF  normalNucleoli > 2.0 AND  clumpThickness > 3.0  THEN Class = 4 (13.900079/14.7052145)
+
+@Classifier number 8: 
+Number of Rules: 6
+Rule[1]: IF  cellSize <= 3.0 AND  clumpThickness <= 8.0 AND  epithelialSize <= 1.0  THEN Class = 4 (0.9663948/1.4594184)
+Rule[2]: IF  cellSize <= 3.0 AND  clumpThickness <= 8.0 AND  epithelialSize > 1.0 AND  normalNucleoli <= 8.0 AND  epithelialSize <= 5.0  THEN Class = 2 (11.277026/11.714777)
+Rule[3]: IF  cellSize <= 3.0 AND  clumpThickness <= 8.0 AND  epithelialSize > 1.0 AND  normalNucleoli <= 8.0 AND  epithelialSize > 5.0  THEN Class = 4 (0.19697748/0.33772466)
+Rule[4]: IF  cellSize <= 3.0 AND  clumpThickness <= 8.0 AND  epithelialSize > 1.0 AND  normalNucleoli > 8.0  THEN Class = 4 (0.37423718/0.37423718)
+Rule[5]: IF  cellSize <= 3.0 AND  clumpThickness > 8.0  THEN Class = 4 (0.47586688/0.47586688)
+Rule[6]: IF  cellSize > 3.0  THEN Class = 4 (8.48396/9.180886)
+
+@Classifier number 9: 
+Number of Rules: 10
+Rule[1]: IF  cellSize <= 2.0 AND  bareNuclei <= 4.0  THEN Class = 2 (14.024837/14.093319)
+Rule[2]: IF  cellSize <= 2.0 AND  bareNuclei > 4.0  THEN Class = 4 (0.83596843/1.6158165)
+Rule[3]: IF  cellSize > 2.0 AND  marginalAdhesion <= 6.0 AND  normalNucleoli <= 8.0 AND  cellShape <= 2.0  THEN Class = 2 (1.3120313/1.3509831)
+Rule[4]: IF  cellSize > 2.0 AND  marginalAdhesion <= 6.0 AND  normalNucleoli <= 8.0 AND  cellShape > 2.0 AND  marginalAdhesion <= 5.0 AND  cellShape <= 7.0 AND  marginalAdhesion <= 4.0 AND  bareNuclei <= 2.0  THEN Class = 2 (1.0524266/1.1625131)
+Rule[5]: IF  cellSize > 2.0 AND  marginalAdhesion <= 6.0 AND  normalNucleoli <= 8.0 AND  cellShape > 2.0 AND  marginalAdhesion <= 5.0 AND  cellShape <= 7.0 AND  marginalAdhesion <= 4.0 AND  bareNuclei > 2.0  THEN Class = 4 (2.8378608/3.253413)
+Rule[6]: IF  cellSize > 2.0 AND  marginalAdhesion <= 6.0 AND  normalNucleoli <= 8.0 AND  cellShape > 2.0 AND  marginalAdhesion <= 5.0 AND  cellShape <= 7.0 AND  marginalAdhesion > 4.0  THEN Class = 2 (2.3606992/2.721311)
+Rule[7]: IF  cellSize > 2.0 AND  marginalAdhesion <= 6.0 AND  normalNucleoli <= 8.0 AND  cellShape > 2.0 AND  marginalAdhesion <= 5.0 AND  cellShape > 7.0  THEN Class = 4 (0.7555102/0.7555102)
+Rule[8]: IF  cellSize > 2.0 AND  marginalAdhesion <= 6.0 AND  normalNucleoli <= 8.0 AND  cellShape > 2.0 AND  marginalAdhesion > 5.0  THEN Class = 4 (0.7883216/0.7883216)
+Rule[9]: IF  cellSize > 2.0 AND  marginalAdhesion <= 6.0 AND  normalNucleoli > 8.0  THEN Class = 4 (1.7231575/1.7231575)
+Rule[10]: IF  cellSize > 2.0 AND  marginalAdhesion > 6.0  THEN Class = 4 (3.8663237/3.8663237)
+
+Accuracy in training: 0.9934747145187602
+Accuracy in test: 0.9285714285714286
+AUC in training: 0.9999649409839897
+AUC in test: 0.9809782608695652

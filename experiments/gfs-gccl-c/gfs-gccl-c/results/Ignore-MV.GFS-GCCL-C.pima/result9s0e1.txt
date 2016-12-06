@@ -1,0 +1,575 @@
+
+Rule base with 81 rules, 184 variables and 184 labels.
+-----------------------------------------------------------------------------------
+
+Rule 1:
+
+If "X2 is Label 3" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.5876818976272337
+
+Fitness: 54
+
+
+Rule 2:
+
+If "X2 is Label 3" then Class is tested_negative with certainty degree 0.570046096143385
+
+Fitness: 39
+
+
+Rule 3:
+
+If "X2 is Label 3" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.7323064145654627
+
+Fitness: 25
+
+
+Rule 4:
+
+If "X8 is Label 2" then Class is tested_negative with certainty degree 0.5313894674204105
+
+Fitness: 23
+
+
+Rule 5:
+
+If "X5 is Label 1" then Class is tested_negative with certainty degree 0.35211838838274395
+
+Fitness: 21
+
+
+Rule 6:
+
+If "X2 is Label 5" then Class is tested_positive with certainty degree 0.6262617077384742
+
+Fitness: 20
+
+
+Rule 7:
+
+If "X4 is Label 2" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.6409963240630213
+
+Fitness: 19
+
+
+Rule 8:
+
+If "X2 is Label 3" and "X5 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.7473495254057246
+
+Fitness: 14
+
+
+Rule 9:
+
+If "X5 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.5733350771245269
+
+Fitness: 12
+
+
+Rule 10:
+
+If "X3 is Label 3" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.5983622499413513
+
+Fitness: 12
+
+
+Rule 11:
+
+If "X2 is Label 2" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.9047269760553763
+
+Fitness: 10
+
+
+Rule 12:
+
+If "X4 is Label 2" and "X5 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.7182100649289099
+
+Fitness: 9
+
+
+Rule 13:
+
+If "X3 is Label 3" and "X5 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.643492487577415
+
+Fitness: 9
+
+
+Rule 14:
+
+If "X1 is Label 1" and "X2 is Label 3" then Class is tested_negative with certainty degree 0.699884115915942
+
+Fitness: 9
+
+
+Rule 15:
+
+If "X1 is Label 1" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.5228055306238896
+
+Fitness: 8
+
+
+Rule 16:
+
+If "X1 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.5767185764586339
+
+Fitness: 8
+
+
+Rule 17:
+
+If then Class is tested_negative with certainty degree 0.3024602026049204
+
+Fitness: 8
+
+
+Rule 18:
+
+If "X2 is Label 3" and "X6 is Label 2" then Class is tested_negative with certainty degree 0.8035857460733057
+
+Fitness: 8
+
+
+Rule 19:
+
+If "X1 is Label 1" and "X2 is Label 3" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.7352497501146474
+
+Fitness: 7
+
+
+Rule 20:
+
+If "X4 is Label 2" then Class is tested_negative with certainty degree 0.39071465832029095
+
+Fitness: 7
+
+
+Rule 21:
+
+If "X1 is Label 1" then Class is tested_negative with certainty degree 0.4537943031093707
+
+Fitness: 7
+
+
+Rule 22:
+
+If "X1 is Label 1" and "X2 is Label 3" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.7861729272713384
+
+Fitness: 6
+
+
+Rule 23:
+
+If "X1 is Label 2" and "X2 is Label 3" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.6367893167680024
+
+Fitness: 6
+
+
+Rule 24:
+
+If "X2 is Label 3" and "X3 is Label 3" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.7645762419164966
+
+Fitness: 6
+
+
+Rule 25:
+
+If "X2 is Label 2" then Class is tested_negative with certainty degree 0.8842560947824106
+
+Fitness: 6
+
+
+Rule 26:
+
+If "X2 is Label 5" and "X8 is Label 3" then Class is tested_positive with certainty degree 0.699221669044361
+
+Fitness: 5
+
+
+Rule 27:
+
+If "X2 is Label 3" and "X4 is Label 2" then Class is tested_negative with certainty degree 0.6335868245712207
+
+Fitness: 5
+
+
+Rule 28:
+
+If "X1 is Label 1" and "X5 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.6393075169190602
+
+Fitness: 5
+
+
+Rule 29:
+
+If "X5 is Label 1" and "X6 is Label 2" then Class is tested_negative with certainty degree 0.6737945202565346
+
+Fitness: 5
+
+
+Rule 30:
+
+If "X2 is Label 3" and "X3 is Label 3" then Class is tested_negative with certainty degree 0.6220269160815957
+
+Fitness: 5
+
+
+Rule 31:
+
+If "X6 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.8432835820895523
+
+Fitness: 4
+
+
+Rule 32:
+
+If "X6 is Label 2" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.832740319276655
+
+Fitness: 4
+
+
+Rule 33:
+
+If "X1 is Label 2" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.39946238263203143
+
+Fitness: 4
+
+
+Rule 34:
+
+If "X1 is Label 1" and "X2 is Label 3" and "X5 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.8175189142536701
+
+Fitness: 4
+
+
+Rule 35:
+
+If "X1 is Label 1" and "X5 is Label 1" and "X6 is Label 2" then Class is tested_negative with certainty degree 0.8697517533605852
+
+Fitness: 4
+
+
+Rule 36:
+
+If "X2 is Label 3" and "X3 is Label 3" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.6290750636163807
+
+Fitness: 3
+
+
+Rule 37:
+
+If "X6 is Label 2" then Class is tested_negative with certainty degree 0.6607698462085521
+
+Fitness: 3
+
+
+Rule 38:
+
+If "X3 is Label 3" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.4443708037124804
+
+Fitness: 3
+
+
+Rule 39:
+
+If "X1 is Label 2" and "X4 is Label 2" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.6190282186212042
+
+Fitness: 3
+
+
+Rule 40:
+
+If "X1 is Label 2" then Class is tested_negative with certainty degree 0.3609360936093621
+
+Fitness: 3
+
+
+Rule 41:
+
+If "X2 is Label 3" and "X6 is Label 2" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.8994758356240751
+
+Fitness: 3
+
+
+Rule 42:
+
+If "X1 is Label 1" and "X4 is Label 2" and "X5 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.757367406596505
+
+Fitness: 3
+
+
+Rule 43:
+
+If "X7 is Label 1" then Class is tested_negative with certainty degree 0.44088059681284636
+
+Fitness: 3
+
+
+Rule 44:
+
+If "X1 is Label 1" and "X2 is Label 3" and "X3 is Label 3" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.7842873768623351
+
+Fitness: 2
+
+
+Rule 45:
+
+If "X2 is Label 3" and "X4 is Label 2" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.7955328044919322
+
+Fitness: 2
+
+
+Rule 46:
+
+If "X2 is Label 3" and "X4 is Label 2" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.669247347437059
+
+Fitness: 2
+
+
+Rule 47:
+
+If "X4 is Label 2" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.4980297611773337
+
+Fitness: 2
+
+
+Rule 48:
+
+If "X3 is Label 3" then Class is tested_negative with certainty degree 0.3925621640519164
+
+Fitness: 2
+
+
+Rule 49:
+
+If "X1 is Label 1" and "X6 is Label 2" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.9213415958237917
+
+Fitness: 2
+
+
+Rule 50:
+
+If "X1 is Label 5" then Class is tested_positive with certainty degree 0.7777777777777779
+
+Fitness: 2
+
+
+Rule 51:
+
+If "X7 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.671617229152537
+
+Fitness: 2
+
+
+Rule 52:
+
+If "X1 is Label 1" and "X2 is Label 3" and "X4 is Label 2" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.8372594227717779
+
+Fitness: 2
+
+
+Rule 53:
+
+If "X1 is Label 1" and "X3 is Label 3" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.649709894120694
+
+Fitness: 2
+
+
+Rule 54:
+
+If "X1 is Label 1" and "X5 is Label 1" and "X6 is Label 1" then Class is tested_negative with certainty degree 1.0
+
+Fitness: 2
+
+
+Rule 55:
+
+If "X2 is Label 3" and "X3 is Label 3" and "X4 is Label 2" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.7147065876952986
+
+Fitness: 2
+
+
+Rule 56:
+
+If "X1 is Label 1" and "X2 is Label 1" and "X5 is Label 1" then Class is tested_negative with certainty degree 1.0
+
+Fitness: 2
+
+
+Rule 57:
+
+If "X2 is Label 5" and "X3 is Label 1" then Class is tested_positive with certainty degree 1.0
+
+Fitness: 2
+
+
+Rule 58:
+
+If "X2 is Label 3" and "X4 is Label 2" and "X5 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.8200245625558441
+
+Fitness: 2
+
+
+Rule 59:
+
+If "X1 is Label 2" and "X2 is Label 3" then Class is tested_negative with certainty degree 0.6230053721092829
+
+Fitness: 2
+
+
+Rule 60:
+
+If "X3 is Label 3" and "X4 is Label 2" then Class is tested_negative with certainty degree 0.47294694883213767
+
+Fitness: 2
+
+
+Rule 61:
+
+If "X1 is Label 1" and "X2 is Label 5" then Class is tested_positive with certainty degree 0.6906058221872542
+
+Fitness: 2
+
+
+Rule 62:
+
+If "X1 is Label 2" and "X3 is Label 3" then Class is tested_negative with certainty degree 0.420002601118481
+
+Fitness: 1
+
+
+Rule 63:
+
+If "X2 is Label 3" and "X3 is Label 3" and "X5 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.7734298725771835
+
+Fitness: 1
+
+
+Rule 64:
+
+If "X1 is Label 1" and "X4 is Label 2" and "X5 is Label 1" then Class is tested_negative with certainty degree 0.6450196716304917
+
+Fitness: 1
+
+
+Rule 65:
+
+If "X1 is Label 1" and "X2 is Label 1" and "X8 is Label 2" then Class is tested_negative with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 66:
+
+If "X3 is Label 3" and "X4 is Label 2" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.6719739699685116
+
+Fitness: 1
+
+
+Rule 67:
+
+If "X4 is Label 5" then Class is tested_positive with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 68:
+
+If "X2 is Label 1" and "X6 is Label 4" then Class is tested_positive with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 69:
+
+If "X8 is Label 5" then Class is tested_negative with certainty degree 0.688622754491018
+
+Fitness: 1
+
+
+Rule 70:
+
+If "X1 is Label 1" and "X4 is Label 2" and "X8 is Label 2" then Class is tested_negative with certainty degree 0.6725240748726438
+
+Fitness: 1
+
+
+Rule 71:
+
+If "X3 is Label 3" and "X7 is Label 1" then Class is tested_negative with certainty degree 0.5177927104945343
+
+Fitness: 1
+
+
+Rule 72:
+
+If "X1 is Label 1" and "X5 is Label 1" and "X7 is Label 2" then Class is tested_negative with certainty degree 0.5260780454920193
+
+Fitness: 1
+
+
+Rule 73:
+
+If "X1 is Label 2" and "X6 is Label 1" then Class is tested_negative with certainty degree 0.923076923076923
+
+Fitness: 1
+
+
+Rule 74:
+
+If "X1 is Label 2" and "X2 is Label 3" and "X4 is Label 2" then Class is tested_negative with certainty degree 0.7180762852404643
+
+Fitness: 1
+
+
+Rule 75:
+
+If "X2 is Label 3" and "X3 is Label 2" then Class is tested_negative with certainty degree 0.6732529625492688
+
+Fitness: 1
+
+
+Rule 76:
+
+If "X4 is Label 2" and "X5 is Label 1" and "X7 is Label 1" then Class is tested_negative with certainty degree 0.6580801809371479
+
+Fitness: 1
+
+
+Rule 77:
+
+If "X3 is Label 3" and "X6 is Label 1" then Class is tested_negative with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 78:
+
+If "X2 is Label 2" and "X7 is Label 2" then Class is tested_negative with certainty degree 0.9124312523672495
+
+Fitness: 1
+
+
+Rule 79:
+
+If "X1 is Label 1" and "X7 is Label 1" then Class is tested_negative with certainty degree 0.5790277861232478
+
+Fitness: 1
+
+
+Rule 80:
+
+If "X5 is Label 1" and "X7 is Label 5" then Class is tested_positive with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 81:
+
+If "X6 is Label 5" then Class is tested_positive with certainty degree 0.8942436412315931
+
+Fitness: 1
+
+
+
+Training Accuracy:	69.17510853835022%
+Test Accuracy:		71.42857142857143%
+

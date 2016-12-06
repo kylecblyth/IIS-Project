@@ -1,0 +1,96 @@
+@Classifier number 0: 
+Number of Rules: 5
+Rule[1]: IF  at7 <= 1.57 AND  at10 <= 3.8  THEN Class = 2 (0.06875001/0.06875001)
+Rule[2]: IF  at7 <= 1.57 AND  at10 > 3.8  THEN Class = 3 (0.2687499/0.2749999)
+Rule[3]: IF  at7 > 1.57 AND  at13 <= 720.0  THEN Class = 2 (0.29999986/0.30624986)
+Rule[4]: IF  at7 > 1.57 AND  at13 > 720.0 AND  at10 <= 3.4  THEN Class = 2 (0.025/0.025)
+Rule[5]: IF  at7 > 1.57 AND  at13 > 720.0 AND  at10 > 3.4  THEN Class = 1 (0.32499984/0.32499984)
+
+@Classifier number 1: 
+Number of Rules: 9
+Rule[1]: IF  at1 <= 12.77 AND  at12 <= 1.58  THEN Class = 3 (0.24833803/0.24833803)
+Rule[2]: IF  at1 <= 12.77 AND  at12 > 1.58 AND  at7 <= 0.76 AND  at2 <= 1.66  THEN Class = 2 (0.04138967/0.04138967)
+Rule[3]: IF  at1 <= 12.77 AND  at12 > 1.58 AND  at7 <= 0.76 AND  at2 > 1.66  THEN Class = 3 (0.16555868/0.16555868)
+Rule[4]: IF  at1 <= 12.77 AND  at12 > 1.58 AND  at7 > 0.76  THEN Class = 2 (3.235044/3.235044)
+Rule[5]: IF  at1 > 12.77 AND  at7 <= 1.57  THEN Class = 3 (1.3658592/1.4072489)
+Rule[6]: IF  at1 > 12.77 AND  at7 > 1.57 AND  at13 <= 650.0  THEN Class = 2 (0.24833803/0.24833803)
+Rule[7]: IF  at1 > 12.77 AND  at7 > 1.57 AND  at13 > 650.0 AND  at5 <= 121.0  THEN Class = 1 (3.0280945/3.0280945)
+Rule[8]: IF  at1 > 12.77 AND  at7 > 1.57 AND  at13 > 650.0 AND  at5 > 121.0 AND  at1 <= 12.99  THEN Class = 2 (0.04138967/0.04138967)
+Rule[9]: IF  at1 > 12.77 AND  at7 > 1.57 AND  at13 > 650.0 AND  at5 > 121.0 AND  at1 > 12.99  THEN Class = 1 (0.124169014/0.124169014)
+
+@Classifier number 2: 
+Number of Rules: 6
+Rule[1]: IF  at7 <= 2.29 AND  at7 <= 1.22  THEN Class = 3 (0.9756006/1.0526218)
+Rule[2]: IF  at7 <= 2.29 AND  at7 > 1.22  THEN Class = 2 (2.6472392/2.8012812)
+Rule[3]: IF  at7 > 2.29 AND  at13 <= 678.0  THEN Class = 2 (0.41077936/0.41077936)
+Rule[4]: IF  at7 > 2.29 AND  at13 > 678.0 AND  at10 <= 3.9 AND  at1 <= 12.99  THEN Class = 2 (0.07702112/0.07702112)
+Rule[5]: IF  at7 > 2.29 AND  at13 > 678.0 AND  at10 <= 3.9 AND  at1 > 12.99  THEN Class = 1 (0.12836854/0.12836854)
+Rule[6]: IF  at7 > 2.29 AND  at13 > 678.0 AND  at10 > 3.9  THEN Class = 1 (1.8012836/1.8012836)
+
+@Classifier number 3: 
+Number of Rules: 4
+Rule[1]: IF  at11 <= 0.78  THEN Class = 3 (7.540717/7.96417)
+Rule[2]: IF  at11 > 0.78 AND  at13 <= 985.0 AND  at2 <= 2.83  THEN Class = 2 (8.401371/9.078892)
+Rule[3]: IF  at11 > 0.78 AND  at13 <= 985.0 AND  at2 > 2.83  THEN Class = 1 (0.68092525/1.8665932)
+Rule[4]: IF  at11 > 0.78 AND  at13 > 985.0  THEN Class = 1 (4.4723134/4.4723134)
+
+@Classifier number 4: 
+Number of Rules: 4
+Rule[1]: IF  at10 <= 3.4  THEN Class = 2 (17.035395/17.035395)
+Rule[2]: IF  at10 > 3.4 AND  at7 <= 1.57  THEN Class = 3 (16.05946/16.730782)
+Rule[3]: IF  at10 > 3.4 AND  at7 > 1.57 AND  at13 <= 678.0  THEN Class = 2 (3.2897582/3.2897582)
+Rule[4]: IF  at10 > 3.4 AND  at7 > 1.57 AND  at13 > 678.0  THEN Class = 1 (15.298944/15.442251)
+
+@Classifier number 5: 
+Number of Rules: 8
+Rule[1]: IF  at13 <= 725.0 AND  at7 <= 1.22  THEN Class = 3 (1.7643317/1.9558043)
+Rule[2]: IF  at13 <= 725.0 AND  at7 > 1.22 AND  at11 <= 0.64  THEN Class = 3 (0.4786813/0.4786813)
+Rule[3]: IF  at13 <= 725.0 AND  at7 > 1.22 AND  at11 > 0.64 AND  at1 <= 13.08  THEN Class = 2 (5.5869765/5.5869765)
+Rule[4]: IF  at13 <= 725.0 AND  at7 > 1.22 AND  at11 > 0.64 AND  at1 > 13.08 AND  at11 <= 0.89  THEN Class = 1 (0.048973314/0.048973314)
+Rule[5]: IF  at13 <= 725.0 AND  at7 > 1.22 AND  at11 > 0.64 AND  at1 > 13.08 AND  at11 > 0.89  THEN Class = 2 (0.12972732/0.12972732)
+Rule[6]: IF  at13 > 725.0 AND  at10 <= 3.4  THEN Class = 2 (0.30441552/0.30441552)
+Rule[7]: IF  at13 > 725.0 AND  at10 > 3.4 AND  at6 <= 2.05  THEN Class = 3 (0.2270228/0.2270228)
+Rule[8]: IF  at13 > 725.0 AND  at10 > 3.4 AND  at6 > 2.05  THEN Class = 1 (2.508705/2.508705)
+
+@Classifier number 6: 
+Number of Rules: 7
+Rule[1]: IF  at13 <= 725.0 AND  at10 <= 4.0 AND  at8 <= 0.5  THEN Class = 2 (4.225784/4.225784)
+Rule[2]: IF  at13 <= 725.0 AND  at10 <= 4.0 AND  at8 > 0.5 AND  at7 <= 0.96  THEN Class = 3 (0.02384956/0.02384956)
+Rule[3]: IF  at13 <= 725.0 AND  at10 <= 4.0 AND  at8 > 0.5 AND  at7 > 0.96  THEN Class = 2 (0.14309736/0.14309736)
+Rule[4]: IF  at13 <= 725.0 AND  at10 > 4.0  THEN Class = 3 (1.2292767/1.7200705)
+Rule[5]: IF  at13 > 725.0 AND  at11 <= 0.8  THEN Class = 3 (0.16694692/0.16694692)
+Rule[6]: IF  at13 > 725.0 AND  at11 > 0.8 AND  at10 <= 3.4  THEN Class = 2 (0.17761351/0.17761351)
+Rule[7]: IF  at13 > 725.0 AND  at11 > 0.8 AND  at10 > 3.4  THEN Class = 1 (1.5498884/1.5498884)
+
+@Classifier number 7: 
+Number of Rules: 10
+Rule[1]: IF  at1 <= 13.11 AND  at12 <= 1.58  THEN Class = 3 (0.21344294/0.21344294)
+Rule[2]: IF  at1 <= 13.11 AND  at12 > 1.58 AND  at13 <= 760.0 AND  at7 <= 0.84 AND  at8 <= 0.34  THEN Class = 2 (0.33324513/0.33324513)
+Rule[3]: IF  at1 <= 13.11 AND  at12 > 1.58 AND  at13 <= 760.0 AND  at7 <= 0.84 AND  at8 > 0.34  THEN Class = 3 (0.18300062/0.18300062)
+Rule[4]: IF  at1 <= 13.11 AND  at12 > 1.58 AND  at13 <= 760.0 AND  at7 > 0.84  THEN Class = 2 (4.2919903/4.2919903)
+Rule[5]: IF  at1 <= 13.11 AND  at12 > 1.58 AND  at13 > 760.0 AND  at10 <= 3.4  THEN Class = 2 (0.07710845/0.07710845)
+Rule[6]: IF  at1 <= 13.11 AND  at12 > 1.58 AND  at13 > 760.0 AND  at10 > 3.4 AND  at1 <= 12.64  THEN Class = 3 (0.017882437/0.017882437)
+Rule[7]: IF  at1 <= 13.11 AND  at12 > 1.58 AND  at13 > 760.0 AND  at10 > 3.4 AND  at1 > 12.64  THEN Class = 1 (0.15180448/0.15180448)
+Rule[8]: IF  at1 > 13.11 AND  at7 <= 2.01 AND  at11 <= 0.97  THEN Class = 3 (0.48902202/0.48902202)
+Rule[9]: IF  at1 > 13.11 AND  at7 <= 2.01 AND  at11 > 0.97  THEN Class = 2 (0.055112854/0.055112854)
+Rule[10]: IF  at1 > 13.11 AND  at7 > 2.01  THEN Class = 1 (1.0262073/1.0440898)
+
+@Classifier number 8: 
+Number of Rules: 12
+Rule[1]: IF  at13 <= 750.0 AND  at10 <= 6.3 AND  at7 <= 1.22 AND  at10 <= 3.17  THEN Class = 2 (0.42332193/0.42332193)
+Rule[2]: IF  at13 <= 750.0 AND  at10 <= 6.3 AND  at7 <= 1.22 AND  at10 > 3.17  THEN Class = 3 (0.4000837/0.4000837)
+Rule[3]: IF  at13 <= 750.0 AND  at10 <= 6.3 AND  at7 > 1.22 AND  at13 <= 678.0  THEN Class = 2 (3.993487/3.993487)
+Rule[4]: IF  at13 <= 750.0 AND  at10 <= 6.3 AND  at7 > 1.22 AND  at13 > 678.0 AND  at2 <= 2.31  THEN Class = 2 (0.2774357/0.2774357)
+Rule[5]: IF  at13 <= 750.0 AND  at10 <= 6.3 AND  at7 > 1.22 AND  at13 > 678.0 AND  at2 > 2.31  THEN Class = 1 (0.11493657/0.11493657)
+Rule[6]: IF  at13 <= 750.0 AND  at10 > 6.3  THEN Class = 3 (0.51427245/0.51427245)
+Rule[7]: IF  at13 > 750.0 AND  at7 <= 2.29 AND  at8 <= 0.4 AND  at3 <= 2.17  THEN Class = 1 (0.021457968/0.021457968)
+Rule[8]: IF  at13 > 750.0 AND  at7 <= 2.29 AND  at8 <= 0.4 AND  at3 > 2.17  THEN Class = 2 (0.065981515/0.065981515)
+Rule[9]: IF  at13 > 750.0 AND  at7 <= 2.29 AND  at8 > 0.4  THEN Class = 3 (0.0890471/0.0890471)
+Rule[10]: IF  at13 > 750.0 AND  at7 > 2.29 AND  at8 <= 0.21 AND  at5 <= 128.0  THEN Class = 1 (0.16210318/0.16210318)
+Rule[11]: IF  at13 > 750.0 AND  at7 > 2.29 AND  at8 <= 0.21 AND  at5 > 128.0  THEN Class = 2 (0.022261772/0.022261772)
+Rule[12]: IF  at13 > 750.0 AND  at7 > 2.29 AND  at8 > 0.21  THEN Class = 1 (0.99488133/0.99488133)
+
+Accuracy in training: 0.73125
+Accuracy in test: 0.7222222222222222
+AUC in training: 0.9314778645833334
+AUC in test: 0.922077922077922

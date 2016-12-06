@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/Ignore-MV.Chi-RW-C.haberman/result0.tst" "../results/Ignore-MV.Chi-RW-C.haberman/result1.tst" "../results/Ignore-MV.Chi-RW-C.haberman/result2.tst" "../results/Ignore-MV.Chi-RW-C.haberman/result3.tst" "../results/Ignore-MV.Chi-RW-C.haberman/result4.tst" "../results/Ignore-MV.Chi-RW-C.haberman/result5.tst" "../results/Ignore-MV.Chi-RW-C.haberman/result6.tst" "../results/Ignore-MV.Chi-RW-C.haberman/result7.tst" "../results/Ignore-MV.Chi-RW-C.haberman/result8.tst" "../results/Ignore-MV.Chi-RW-C.haberman/result9.tst" "../results/Ignore-MV.Chi-RW-C.haberman/result0.tra" "../results/Ignore-MV.Chi-RW-C.haberman/result1.tra" "../results/Ignore-MV.Chi-RW-C.haberman/result2.tra" "../results/Ignore-MV.Chi-RW-C.haberman/result3.tra" "../results/Ignore-MV.Chi-RW-C.haberman/result4.tra" "../results/Ignore-MV.Chi-RW-C.haberman/result5.tra" "../results/Ignore-MV.Chi-RW-C.haberman/result6.tra" "../results/Ignore-MV.Chi-RW-C.haberman/result7.tra" "../results/Ignore-MV.Chi-RW-C.haberman/result8.tra" "../results/Ignore-MV.Chi-RW-C.haberman/result9.tra" 
+outputData = "../results/Vis-Clas-Check/TSTChi-RW-C/result3s0.stat" 
+
+seed = 1224357370
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

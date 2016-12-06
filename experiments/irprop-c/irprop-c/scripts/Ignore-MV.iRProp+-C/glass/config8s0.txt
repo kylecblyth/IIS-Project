@@ -1,0 +1,8 @@
+algorithm = Clas-iRProp+
+inputData = "../datasets/Ignore-MV.glass/Ignore-MV.glass-10-9tra.dat" "../datasets/Ignore-MV.glass/Ignore-MV.glass-10-9tra.dat" "../datasets/Ignore-MV.glass/Ignore-MV.glass-10-9tst.dat" 
+outputData = "../results/Ignore-MV.iRProp+-C.glass/result8s0.tra" "../results/Ignore-MV.iRProp+-C.glass/result8s0.tst" "../results/Ignore-MV.iRProp+-C.glass/result8s0e0.txt"  
+
+seed = 1286082570
+Hidden_nodes = 4
+Epochs = 500
+Transfer = Product_Unit

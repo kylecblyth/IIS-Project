@@ -1,0 +1,87 @@
+@Classifier number 0: 
+Number of Rules: 9
+Rule[1]: IF  thyroxin <= 5.6 AND  TSH_value <= 1.7  THEN Class = normal (0.010309278/0.0154639175)
+Rule[2]: IF  thyroxin <= 5.6 AND  TSH_value > 1.7  THEN Class = hypo (0.1185567/0.1185567)
+Rule[3]: IF  thyroxin > 5.6 AND  thyroxin <= 12.4 AND  TSH_value <= 7.0 AND  TSH_value <= 0.0 AND  T3resin <= 95.0  THEN Class = hyper (0.010309278/0.010309278)
+Rule[4]: IF  thyroxin > 5.6 AND  thyroxin <= 12.4 AND  TSH_value <= 7.0 AND  TSH_value <= 0.0 AND  T3resin > 95.0  THEN Class = normal (0.06185567/0.067010306)
+Rule[5]: IF  thyroxin > 5.6 AND  thyroxin <= 12.4 AND  TSH_value <= 7.0 AND  TSH_value > 0.0  THEN Class = normal (0.57731915/0.57731915)
+Rule[6]: IF  thyroxin > 5.6 AND  thyroxin <= 12.4 AND  TSH_value > 7.0 AND  thyroxin <= 7.3  THEN Class = hypo (0.0154639175/0.0154639175)
+Rule[7]: IF  thyroxin > 5.6 AND  thyroxin <= 12.4 AND  TSH_value > 7.0 AND  thyroxin > 7.3  THEN Class = normal (0.010309278/0.010309278)
+Rule[8]: IF  thyroxin > 5.6 AND  thyroxin > 12.4 AND  TSH_value <= 0.4  THEN Class = hyper (0.14948453/0.14948453)
+Rule[9]: IF  thyroxin > 5.6 AND  thyroxin > 12.4 AND  TSH_value > 0.4  THEN Class = normal (0.036082473/0.036082473)
+
+@Classifier number 1: 
+Number of Rules: 9
+Rule[1]: IF  thyroxin <= 5.6  THEN Class = hypo (1.8635699/1.938663)
+Rule[2]: IF  thyroxin > 5.6 AND  triiodothyronine <= 3.1 AND  thyroxin <= 12.4 AND  TSH_value <= 9.5 AND  T3resin <= 95.0 AND  thyroxin <= 10.0  THEN Class = normal (0.15018615/0.15018615)
+Rule[3]: IF  thyroxin > 5.6 AND  triiodothyronine <= 3.1 AND  thyroxin <= 12.4 AND  TSH_value <= 9.5 AND  T3resin <= 95.0 AND  thyroxin > 10.0  THEN Class = hyper (0.075093076/0.075093076)
+Rule[4]: IF  thyroxin > 5.6 AND  triiodothyronine <= 3.1 AND  thyroxin <= 12.4 AND  TSH_value <= 9.5 AND  T3resin > 95.0  THEN Class = normal (4.5431366/4.5431366)
+Rule[5]: IF  thyroxin > 5.6 AND  triiodothyronine <= 3.1 AND  thyroxin <= 12.4 AND  TSH_value > 9.5 AND  thyroidstimulating <= 1.6  THEN Class = normal (0.037546538/0.037546538)
+Rule[6]: IF  thyroxin > 5.6 AND  triiodothyronine <= 3.1 AND  thyroxin <= 12.4 AND  TSH_value > 9.5 AND  thyroidstimulating > 1.6  THEN Class = hypo (0.11263961/0.11263961)
+Rule[7]: IF  thyroxin > 5.6 AND  triiodothyronine <= 3.1 AND  thyroxin > 12.4 AND  TSH_value <= 0.4  THEN Class = hyper (0.37546542/0.37546542)
+Rule[8]: IF  thyroxin > 5.6 AND  triiodothyronine <= 3.1 AND  thyroxin > 12.4 AND  TSH_value > 0.4  THEN Class = normal (0.2628258/0.2628258)
+Rule[9]: IF  thyroxin > 5.6 AND  triiodothyronine > 3.1  THEN Class = hyper (1.7133842/1.7133842)
+
+@Classifier number 2: 
+Number of Rules: 8
+Rule[1]: IF  triiodothyronine <= 3.1 AND  thyroxin <= 3.8  THEN Class = hypo (1.3553891/1.3553891)
+Rule[2]: IF  triiodothyronine <= 3.1 AND  thyroxin > 3.8 AND  thyroidstimulating <= 3.7 AND  TSH_value <= 0.4  THEN Class = normal (0.46698913/0.8672655)
+Rule[3]: IF  triiodothyronine <= 3.1 AND  thyroxin > 3.8 AND  thyroidstimulating <= 3.7 AND  TSH_value > 0.4 AND  TSH_value <= 4.6  THEN Class = normal (5.53577/5.53577)
+Rule[4]: IF  triiodothyronine <= 3.1 AND  thyroxin > 3.8 AND  thyroidstimulating <= 3.7 AND  TSH_value > 0.4 AND  TSH_value > 4.6 AND  triiodothyronine <= 1.5 AND  thyroidstimulating <= 1.1  THEN Class = normal (0.033356365/0.033356365)
+Rule[5]: IF  triiodothyronine <= 3.1 AND  thyroxin > 3.8 AND  thyroidstimulating <= 3.7 AND  TSH_value > 0.4 AND  TSH_value > 4.6 AND  triiodothyronine <= 1.5 AND  thyroidstimulating > 1.1  THEN Class = hypo (0.13342546/0.13342546)
+Rule[6]: IF  triiodothyronine <= 3.1 AND  thyroxin > 3.8 AND  thyroidstimulating <= 3.7 AND  TSH_value > 0.4 AND  TSH_value > 4.6 AND  triiodothyronine > 1.5  THEN Class = normal (0.4002764/0.4002764)
+Rule[7]: IF  triiodothyronine <= 3.1 AND  thyroxin > 3.8 AND  thyroidstimulating > 3.7  THEN Class = hypo (0.26685092/0.26685092)
+Rule[8]: IF  triiodothyronine > 3.1  THEN Class = hyper (1.5221714/1.5221714)
+
+@Classifier number 3: 
+Number of Rules: 4
+Rule[1]: IF  TSH_value <= 0.4  THEN Class = hyper (14.27651/15.518642)
+Rule[2]: IF  TSH_value > 0.4 AND  thyroidstimulating <= 3.7 AND  thyroxin <= 3.8  THEN Class = hypo (0.67948204/0.67948204)
+Rule[3]: IF  TSH_value > 0.4 AND  thyroidstimulating <= 3.7 AND  thyroxin > 3.8  THEN Class = normal (11.888074/12.24297)
+Rule[4]: IF  TSH_value > 0.4 AND  thyroidstimulating > 3.7  THEN Class = hypo (1.8631976/1.8631976)
+
+@Classifier number 4: 
+Number of Rules: 6
+Rule[1]: IF  TSH_value <= 4.4 AND  thyroxin <= 12.4 AND  triiodothyronine <= 0.6  THEN Class = hypo (0.5074231/0.6097408)
+Rule[2]: IF  TSH_value <= 4.4 AND  thyroxin <= 12.4 AND  triiodothyronine > 0.6 AND  T3resin <= 95.0  THEN Class = hyper (1.0250816/1.3320347)
+Rule[3]: IF  TSH_value <= 4.4 AND  thyroxin <= 12.4 AND  triiodothyronine > 0.6 AND  T3resin > 95.0 AND  triiodothyronine <= 2.9  THEN Class = normal (24.1972/24.1972)
+Rule[4]: IF  TSH_value <= 4.4 AND  thyroxin <= 12.4 AND  triiodothyronine > 0.6 AND  T3resin > 95.0 AND  triiodothyronine > 2.9  THEN Class = hyper (0.30278775/0.30278775)
+Rule[5]: IF  TSH_value <= 4.4 AND  thyroxin > 12.4  THEN Class = hyper (7.0694447/7.785668)
+Rule[6]: IF  TSH_value > 4.4  THEN Class = hypo (6.0463533/7.5811176)
+
+@Classifier number 5: 
+Number of Rules: 3
+Rule[1]: IF  thyroxin <= 5.6  THEN Class = hypo (4.32531/4.750097)
+Rule[2]: IF  thyroxin > 5.6 AND  thyroxin <= 16.1  THEN Class = normal (45.266396/48.880863)
+Rule[3]: IF  thyroxin > 5.6 AND  thyroxin > 16.1  THEN Class = hyper (3.4106898/3.4106898)
+
+@Classifier number 6: 
+Number of Rules: 4
+Rule[1]: IF  TSH_value <= 0.4  THEN Class = hyper (5.4410625/6.8151236)
+Rule[2]: IF  TSH_value > 0.4 AND  TSH_value <= 7.7 AND  thyroidstimulating <= 3.7  THEN Class = normal (7.213256/7.4671636)
+Rule[3]: IF  TSH_value > 0.4 AND  TSH_value <= 7.7 AND  thyroidstimulating > 3.7  THEN Class = hypo (0.13947493/0.13947493)
+Rule[4]: IF  TSH_value > 0.4 AND  TSH_value > 7.7  THEN Class = hypo (2.0571084/2.2146037)
+
+@Classifier number 7: 
+Number of Rules: 4
+Rule[1]: IF  thyroxin <= 6.8  THEN Class = hypo (3.397372/4.7076006)
+Rule[2]: IF  thyroxin > 6.8 AND  thyroxin <= 11.0  THEN Class = normal (12.353776/12.353776)
+Rule[3]: IF  thyroxin > 6.8 AND  thyroxin > 11.0 AND  T3resin <= 99.0  THEN Class = hyper (2.61141/2.61141)
+Rule[4]: IF  thyroxin > 6.8 AND  thyroxin > 11.0 AND  T3resin > 99.0  THEN Class = normal (2.7495124/3.6328964)
+
+@Classifier number 8: 
+Number of Rules: 3
+Rule[1]: IF  thyroxin <= 11.9 AND  thyroidstimulating <= 3.7  THEN Class = normal (15.034208/16.391317)
+Rule[2]: IF  thyroxin <= 11.9 AND  thyroidstimulating > 3.7  THEN Class = hypo (0.8670906/0.8670906)
+Rule[3]: IF  thyroxin > 11.9  THEN Class = hyper (5.0460043/5.7882543)
+
+@Classifier number 9: 
+Number of Rules: 3
+Rule[1]: IF  thyroxin <= 6.5  THEN Class = hypo (4.709619/6.762877)
+Rule[2]: IF  thyroxin > 6.5 AND  TSH_value <= 0.4  THEN Class = hyper (2.9584954/4.61226)
+Rule[3]: IF  thyroxin > 6.5 AND  TSH_value > 0.4  THEN Class = normal (7.551881/7.638981)
+
+Accuracy in training: 0.8608247422680413
+Accuracy in test: 0.8571428571428571
+AUC in training: 1.0
+AUC in test: 1.0

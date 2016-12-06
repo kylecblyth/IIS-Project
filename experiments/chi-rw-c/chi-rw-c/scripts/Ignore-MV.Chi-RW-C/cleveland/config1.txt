@@ -1,0 +1,8 @@
+algorithm = Fuzzy Rule Learning Model by the Chi et al. approach with rule weights
+inputData = "../datasets/Ignore-MV.cleveland/Ignore-MV.cleveland-10-2tra.dat" "../datasets/Ignore-MV.cleveland/Ignore-MV.cleveland-10-2tra.dat" "../datasets/Ignore-MV.cleveland/Ignore-MV.cleveland-10-2tst.dat" 
+outputData = "../results/Ignore-MV.Chi-RW-C.cleveland/result1.tra" "../results/Ignore-MV.Chi-RW-C.cleveland/result1.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result1e0.txt"  "../results/Ignore-MV.Chi-RW-C.cleveland/result1e1.txt"  
+
+Number of Labels = 3
+T-norm for the Computation of the Compatibility Degree = Product
+Rule Weight = Penalized_Certainty_Factor
+Fuzzy Reasoning Method = Winning_Rule

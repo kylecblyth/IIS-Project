@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/Ignore-MV.Chi-RW-C.glass/result0.tst" "../results/Ignore-MV.Chi-RW-C.glass/result1.tst" "../results/Ignore-MV.Chi-RW-C.glass/result2.tst" "../results/Ignore-MV.Chi-RW-C.glass/result3.tst" "../results/Ignore-MV.Chi-RW-C.glass/result4.tst" "../results/Ignore-MV.Chi-RW-C.glass/result5.tst" "../results/Ignore-MV.Chi-RW-C.glass/result6.tst" "../results/Ignore-MV.Chi-RW-C.glass/result7.tst" "../results/Ignore-MV.Chi-RW-C.glass/result8.tst" "../results/Ignore-MV.Chi-RW-C.glass/result9.tst" "../results/Ignore-MV.Chi-RW-C.glass/result0.tra" "../results/Ignore-MV.Chi-RW-C.glass/result1.tra" "../results/Ignore-MV.Chi-RW-C.glass/result2.tra" "../results/Ignore-MV.Chi-RW-C.glass/result3.tra" "../results/Ignore-MV.Chi-RW-C.glass/result4.tra" "../results/Ignore-MV.Chi-RW-C.glass/result5.tra" "../results/Ignore-MV.Chi-RW-C.glass/result6.tra" "../results/Ignore-MV.Chi-RW-C.glass/result7.tra" "../results/Ignore-MV.Chi-RW-C.glass/result8.tra" "../results/Ignore-MV.Chi-RW-C.glass/result9.tra" 
+outputData = "../results/Vis-Clas-Check/TSTChi-RW-C/result2s0.stat" 
+
+seed = 1870576674
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

@@ -1,0 +1,309 @@
+
+Rule base with 43 rules, 136 variables and 136 labels.
+-----------------------------------------------------------------------------------
+
+Rule 1:
+
+If "X2 is Label 1" and "X7 is Label 1" and "X9 is Label 1" and "X11 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 1.0
+
+Fitness: 22
+
+
+Rule 2:
+
+If "X2 is Label 1" and "X9 is Label 1" and "X11 is Label 3" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 1.0
+
+Fitness: 19
+
+
+Rule 3:
+
+If "X7 is Label 1" and "X11 is Label 1" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.9662162162162162
+
+Fitness: 15
+
+
+Rule 4:
+
+If "X11 is Label 1" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.9166666666666666
+
+Fitness: 9
+
+
+Rule 5:
+
+If "X9 is Label 1" then Class is 0 with certainty degree 0.6089385474860335
+
+Fitness: 8
+
+
+Rule 6:
+
+If "X9 is Label 1" and "X11 is Label 1" and "X12 is Label 1" then Class is 0 with certainty degree 0.8507462686567164
+
+Fitness: 6
+
+
+Rule 7:
+
+If "X9 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.8004201680672269
+
+Fitness: 5
+
+
+Rule 8:
+
+If "X7 is Label 1" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.8706896551724138
+
+Fitness: 5
+
+
+Rule 9:
+
+If "X7 is Label 1" and "X11 is Label 1" then Class is 0 with certainty degree 0.7711267605633803
+
+Fitness: 5
+
+
+Rule 10:
+
+If "X6 is Label 5" and "X9 is Label 1" and "X11 is Label 1" and "X12 is Label 1" then Class is 0 with certainty degree 1.0
+
+Fitness: 4
+
+
+Rule 11:
+
+If "X2 is Label 1" and "X9 is Label 5" and "X11 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 1.0
+
+Fitness: 4
+
+
+Rule 12:
+
+If "X2 is Label 1" and "X9 is Label 1" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.9390243902439024
+
+Fitness: 4
+
+
+Rule 13:
+
+If "X2 is Label 1" and "X11 is Label 1" then Class is 0 with certainty degree 0.9038461538461539
+
+Fitness: 3
+
+
+Rule 14:
+
+If "X1 is Label 2" and "X11 is Label 1" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.9736842105263158
+
+Fitness: 3
+
+
+Rule 15:
+
+If "X2 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.8063380281690141
+
+Fitness: 3
+
+
+Rule 16:
+
+If "X9 is Label 5" and "X11 is Label 1" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 1.0
+
+Fitness: 3
+
+
+Rule 17:
+
+If "X2 is Label 1" and "X7 is Label 1" and "X9 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.9642857142857143
+
+Fitness: 2
+
+
+Rule 18:
+
+If "X11 is Label 3" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.7635135135135135
+
+Fitness: 2
+
+
+Rule 19:
+
+If "X10 is Label 5" then Class is 3 with certainty degree 1.0
+
+Fitness: 2
+
+
+Rule 20:
+
+If "X6 is Label 1" then Class is 0 with certainty degree 0.4259656652360515
+
+Fitness: 2
+
+
+Rule 21:
+
+If "X7 is Label 1" and "X9 is Label 1" and "X11 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.9202127659574468
+
+Fitness: 2
+
+
+Rule 22:
+
+If "X1 is Label 2" and "X9 is Label 1" then Class is 0 with certainty degree 0.7647849462365591
+
+Fitness: 1
+
+
+Rule 23:
+
+If "X1 is Label 2" and "X2 is Label 1" and "X9 is Label 1" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 24:
+
+If "X6 is Label 5" and "X11 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.875
+
+Fitness: 1
+
+
+Rule 25:
+
+If "X9 is Label 1" and "X11 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.8259493670886076
+
+Fitness: 1
+
+
+Rule 26:
+
+If "X1 is Label 2" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.9620327102803737
+
+Fitness: 1
+
+
+Rule 27:
+
+If "X6 is Label 5" and "X9 is Label 1" then Class is 0 with certainty degree 0.6195652173913043
+
+Fitness: 1
+
+
+Rule 28:
+
+If "X11 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.8174157303370787
+
+Fitness: 1
+
+
+Rule 29:
+
+If "X5 is Label 5" then Class is 0 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 30:
+
+If "X7 is Label 1" and "X9 is Label 1" and "X12 is Label 5" and "X13 is Label 1" then Class is 2 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 31:
+
+If "X1 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 32:
+
+If "X4 is Label 2" and "X9 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.8325688073394496
+
+Fitness: 1
+
+
+Rule 33:
+
+If "X2 is Label 1" and "X9 is Label 1" and "X11 is Label 1" and "X13 is Label 5" then Class is 0 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 34:
+
+If "X6 is Label 5" and "X7 is Label 5" and "X9 is Label 1" and "X12 is Label 1" and "X13 is Label 4" then Class is 0 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 35:
+
+If "X2 is Label 1" and "X13 is Label 4" then Class is 2 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 36:
+
+If "X5 is Label 2" and "X11 is Label 1" and "X12 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 0.9341802713267418
+
+Fitness: 1
+
+
+Rule 37:
+
+If "X6 is Label 5" and "X7 is Label 1" and "X11 is Label 1" and "X13 is Label 1" then Class is 0 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 38:
+
+If "X1 is Label 3" and "X11 is Label 1" and "X12 is Label 1" then Class is 0 with certainty degree 0.821927374301676
+
+Fitness: 1
+
+
+Rule 39:
+
+If "X2 is Label 1" and "X9 is Label 1" and "X10 is Label 2" and "X11 is Label 1" then Class is 0 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 40:
+
+If "X6 is Label 1" and "X8 is Label 1" and "X12 is Label 1" and "X13 is Label 1" then Class is 2 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 41:
+
+If "X1 is Label 2" and "X6 is Label 5" and "X9 is Label 1" then Class is 0 with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 42:
+
+If "X2 is Label 1" and "X9 is Label 1" and "X11 is Label 3" and "X13 is Label 1" then Class is 0 with certainty degree 0.8913043478260869
+
+Fitness: 1
+
+
+Rule 43:
+
+If "X6 is Label 1" and "X9 is Label 1" and "X12 is Label 5" and "X13 is Label 1" then Class is 1 with certainty degree 1.0
+
+Fitness: 1
+
+
+
+Training Accuracy:	55.762081784386616%
+Test Accuracy:		60.71428571428571%
+

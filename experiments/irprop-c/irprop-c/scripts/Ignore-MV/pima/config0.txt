@@ -1,0 +1,4 @@
+algorithm = Delete Instances with Missing Values
+inputData = "../datasets/pima/pima-10-1tra.dat" "../datasets/pima/pima-10-1tst.dat" 
+outputData = "../datasets/Ignore-MV.pima/Ignore-MV.pima-10-1tra.dat" "../datasets/Ignore-MV.pima/Ignore-MV.pima-10-1tst.dat" 
+

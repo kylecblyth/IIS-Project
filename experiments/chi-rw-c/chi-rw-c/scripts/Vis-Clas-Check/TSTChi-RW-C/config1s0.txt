@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/Ignore-MV.Chi-RW-C.cleveland/result0.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result1.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result2.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result3.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result4.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result5.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result6.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result7.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result8.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result9.tst" "../results/Ignore-MV.Chi-RW-C.cleveland/result0.tra" "../results/Ignore-MV.Chi-RW-C.cleveland/result1.tra" "../results/Ignore-MV.Chi-RW-C.cleveland/result2.tra" "../results/Ignore-MV.Chi-RW-C.cleveland/result3.tra" "../results/Ignore-MV.Chi-RW-C.cleveland/result4.tra" "../results/Ignore-MV.Chi-RW-C.cleveland/result5.tra" "../results/Ignore-MV.Chi-RW-C.cleveland/result6.tra" "../results/Ignore-MV.Chi-RW-C.cleveland/result7.tra" "../results/Ignore-MV.Chi-RW-C.cleveland/result8.tra" "../results/Ignore-MV.Chi-RW-C.cleveland/result9.tra" 
+outputData = "../results/Vis-Clas-Check/TSTChi-RW-C/result1s0.stat" 
+
+seed = 488269753
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

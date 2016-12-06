@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/Ignore-MV.GFS-GCCL-C.iris/result0s0.tst" "../results/Ignore-MV.GFS-GCCL-C.iris/result1s0.tst" "../results/Ignore-MV.GFS-GCCL-C.iris/result2s0.tst" "../results/Ignore-MV.GFS-GCCL-C.iris/result3s0.tst" "../results/Ignore-MV.GFS-GCCL-C.iris/result4s0.tst" "../results/Ignore-MV.GFS-GCCL-C.iris/result5s0.tst" "../results/Ignore-MV.GFS-GCCL-C.iris/result6s0.tst" "../results/Ignore-MV.GFS-GCCL-C.iris/result7s0.tst" "../results/Ignore-MV.GFS-GCCL-C.iris/result8s0.tst" "../results/Ignore-MV.GFS-GCCL-C.iris/result9s0.tst" "../results/Ignore-MV.GFS-GCCL-C.iris/result0s0.tra" "../results/Ignore-MV.GFS-GCCL-C.iris/result1s0.tra" "../results/Ignore-MV.GFS-GCCL-C.iris/result2s0.tra" "../results/Ignore-MV.GFS-GCCL-C.iris/result3s0.tra" "../results/Ignore-MV.GFS-GCCL-C.iris/result4s0.tra" "../results/Ignore-MV.GFS-GCCL-C.iris/result5s0.tra" "../results/Ignore-MV.GFS-GCCL-C.iris/result6s0.tra" "../results/Ignore-MV.GFS-GCCL-C.iris/result7s0.tra" "../results/Ignore-MV.GFS-GCCL-C.iris/result8s0.tra" "../results/Ignore-MV.GFS-GCCL-C.iris/result9s0.tra" 
+outputData = "../results/Vis-Clas-Check/TSTGFS-GCCL-C/result4s0.stat" 
+
+seed = 410467215
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

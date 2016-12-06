@@ -1,0 +1,169 @@
+
+Rule base with 23 rules, 27 variables and 27 labels.
+-----------------------------------------------------------------------------------
+
+Rule 1:
+
+If "X4 is Label 1" then Class is normal with certainty degree 0.6290628077884689
+
+Fitness: 37
+
+
+Rule 2:
+
+If "X1 is Label 3" then Class is normal with certainty degree 0.7260604521209044
+
+Fitness: 25
+
+
+Rule 3:
+
+If "X2 is Label 2" and "X4 is Label 1" then Class is normal with certainty degree 0.8579632221939426
+
+Fitness: 19
+
+
+Rule 4:
+
+If "X2 is Label 2" then Class is normal with certainty degree 0.7767936226749336
+
+Fitness: 13
+
+
+Rule 5:
+
+If "X2 is Label 3" then Class is normal with certainty degree 0.7354206500956023
+
+Fitness: 12
+
+
+Rule 6:
+
+If "X3 is Label 2" then Class is normal with certainty degree 0.6682080924855489
+
+Fitness: 9
+
+
+Rule 7:
+
+If "X2 is Label 1" then Class is hypo with certainty degree 0.877742946708464
+
+Fitness: 9
+
+
+Rule 8:
+
+If "X2 is Label 2" and "X5 is Label 1" then Class is normal with certainty degree 0.9079050589531195
+
+Fitness: 8
+
+
+Rule 9:
+
+If "X2 is Label 4" then Class is hyper with certainty degree 0.9284883720930234
+
+Fitness: 5
+
+
+Rule 10:
+
+If "X3 is Label 2" and "X4 is Label 1" then Class is normal with certainty degree 0.7129714961401425
+
+Fitness: 4
+
+
+Rule 11:
+
+If "X3 is Label 4" then Class is hyper with certainty degree 1.0
+
+Fitness: 4
+
+
+Rule 12:
+
+If "X1 is Label 3" and "X2 is Label 2" then Class is normal with certainty degree 0.8710550422100507
+
+Fitness: 4
+
+
+Rule 13:
+
+If "X3 is Label 3" then Class is hyper with certainty degree 0.9345238095238098
+
+Fitness: 4
+
+
+Rule 14:
+
+If "X2 is Label 5" then Class is hyper with certainty degree 1.0
+
+Fitness: 3
+
+
+Rule 15:
+
+If "X5 is Label 3" then Class is hypo with certainty degree 0.9960247349823322
+
+Fitness: 3
+
+
+Rule 16:
+
+If "X5 is Label 1" then Class is normal with certainty degree 0.5980271573354324
+
+Fitness: 2
+
+
+Rule 17:
+
+If "X4 is Label 3" then Class is hypo with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 18:
+
+If then Class is normal with certainty degree 0.5438144329896907
+
+Fitness: 1
+
+
+Rule 19:
+
+If "X5 is Label 5" then Class is hypo with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 20:
+
+If "X1 is Label 1" then Class is hyper with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 21:
+
+If "X5 is Label 4" then Class is hypo with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 22:
+
+If "X4 is Label 5" then Class is hypo with certainty degree 1.0
+
+Fitness: 1
+
+
+Rule 23:
+
+If "X1 is Label 4" and "X5 is Label 1" then Class is normal with certainty degree 0.778860294117647
+
+Fitness: 1
+
+
+
+Training Accuracy:	86.5979381443299%
+Test Accuracy:		90.47619047619048%
+

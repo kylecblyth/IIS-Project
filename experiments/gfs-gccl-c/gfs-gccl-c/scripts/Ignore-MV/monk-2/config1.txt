@@ -1,0 +1,4 @@
+algorithm = Delete Instances with Missing Values
+inputData = "../datasets/monk-2/monk-2-10-2tra.dat" "../datasets/monk-2/monk-2-10-2tst.dat" 
+outputData = "../datasets/Ignore-MV.monk-2/Ignore-MV.monk-2-10-2tra.dat" "../datasets/Ignore-MV.monk-2/Ignore-MV.monk-2-10-2tst.dat" 
+

@@ -1,0 +1,2314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<execution>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/bupa/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/bupa/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/bupa/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/bupa/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/bupa/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/bupa/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/bupa/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/bupa/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/bupa/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/bupa/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/bupa/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/bupa/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/bupa/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/bupa/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/bupa/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/bupa/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/bupa/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/bupa/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/bupa/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/bupa/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/cleveland/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/cleveland/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/cleveland/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/cleveland/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/cleveland/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/cleveland/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/cleveland/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/cleveland/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/cleveland/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/cleveland/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/cleveland/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/cleveland/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/cleveland/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/cleveland/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/cleveland/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/cleveland/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/cleveland/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/cleveland/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/cleveland/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/cleveland/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/glass/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/glass/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/glass/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/glass/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/glass/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/glass/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/glass/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/glass/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/glass/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/glass/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/glass/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/glass/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/glass/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/glass/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/glass/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/glass/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/glass/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/glass/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/glass/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/glass/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/haberman/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/haberman/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/haberman/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/haberman/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/haberman/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/haberman/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/haberman/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/haberman/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/haberman/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/haberman/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/haberman/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/haberman/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/haberman/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/haberman/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/haberman/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/haberman/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/haberman/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/haberman/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/haberman/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/haberman/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/iris/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/iris/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/iris/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/iris/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/iris/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/iris/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/iris/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/iris/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/iris/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/iris/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/iris/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/iris/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/iris/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/iris/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/iris/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/iris/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/iris/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/iris/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/iris/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/iris/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/monk-2/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/monk-2/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/monk-2/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/monk-2/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/monk-2/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/monk-2/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/monk-2/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/monk-2/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/monk-2/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/monk-2/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/monk-2/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/monk-2/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/monk-2/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/monk-2/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/monk-2/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/monk-2/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/monk-2/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/monk-2/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/monk-2/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/monk-2/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/new-thyroid/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/new-thyroid/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/new-thyroid/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/new-thyroid/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/new-thyroid/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/new-thyroid/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/new-thyroid/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/new-thyroid/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/new-thyroid/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/new-thyroid/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/new-thyroid/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/new-thyroid/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/new-thyroid/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/new-thyroid/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/new-thyroid/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/new-thyroid/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/new-thyroid/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/new-thyroid/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/new-thyroid/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/new-thyroid/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/pima/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/pima/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/pima/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/pima/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/pima/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/pima/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/pima/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/pima/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/pima/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/pima/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/pima/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/pima/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/pima/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/pima/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/pima/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/pima/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/pima/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/pima/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/pima/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/pima/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/vehicle/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/vehicle/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/vehicle/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/vehicle/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/vehicle/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/vehicle/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/vehicle/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/vehicle/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/vehicle/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/vehicle/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/vehicle/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/vehicle/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/vehicle/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/vehicle/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/vehicle/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/vehicle/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/vehicle/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/vehicle/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/vehicle/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/vehicle/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wine/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wine/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wine/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wine/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wine/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wine/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wine/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wine/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wine/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wine/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wine/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wine/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wine/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wine/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wine/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wine/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wine/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wine/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wine/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wine/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wisconsin/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wisconsin/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wisconsin/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wisconsin/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wisconsin/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wisconsin/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wisconsin/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wisconsin/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wisconsin/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/MV-Ignore.jar</executableFile>
+    <scriptFile>./Ignore-MV/wisconsin/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wisconsin/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wisconsin/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wisconsin/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wisconsin/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wisconsin/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wisconsin/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wisconsin/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wisconsin/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wisconsin/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-Ishibuchi99.jar</executableFile>
+    <scriptFile>./Ignore-MV.GFS-GCCL-C/wisconsin/config9s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTGFS-GCCL-C/config10s0.txt</scriptFile>
+  </sentence>
+</execution>
+

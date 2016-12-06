@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/Ignore-MV.Chi-RW-C.wine/result0.tst" "../results/Ignore-MV.Chi-RW-C.wine/result1.tst" "../results/Ignore-MV.Chi-RW-C.wine/result2.tst" "../results/Ignore-MV.Chi-RW-C.wine/result3.tst" "../results/Ignore-MV.Chi-RW-C.wine/result4.tst" "../results/Ignore-MV.Chi-RW-C.wine/result5.tst" "../results/Ignore-MV.Chi-RW-C.wine/result6.tst" "../results/Ignore-MV.Chi-RW-C.wine/result7.tst" "../results/Ignore-MV.Chi-RW-C.wine/result8.tst" "../results/Ignore-MV.Chi-RW-C.wine/result9.tst" "../results/Ignore-MV.Chi-RW-C.wine/result0.tra" "../results/Ignore-MV.Chi-RW-C.wine/result1.tra" "../results/Ignore-MV.Chi-RW-C.wine/result2.tra" "../results/Ignore-MV.Chi-RW-C.wine/result3.tra" "../results/Ignore-MV.Chi-RW-C.wine/result4.tra" "../results/Ignore-MV.Chi-RW-C.wine/result5.tra" "../results/Ignore-MV.Chi-RW-C.wine/result6.tra" "../results/Ignore-MV.Chi-RW-C.wine/result7.tra" "../results/Ignore-MV.Chi-RW-C.wine/result8.tra" "../results/Ignore-MV.Chi-RW-C.wine/result9.tra" 
+outputData = "../results/Vis-Clas-Check/TSTChi-RW-C/result9s0.stat" 
+
+seed = 1899147052
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

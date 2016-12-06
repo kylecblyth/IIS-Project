@@ -1,0 +1,4 @@
+algorithm = Delete Instances with Missing Values
+inputData = "../datasets/glass/glass-10-9tra.dat" "../datasets/glass/glass-10-9tst.dat" 
+outputData = "../datasets/Ignore-MV.glass/Ignore-MV.glass-10-9tra.dat" "../datasets/Ignore-MV.glass/Ignore-MV.glass-10-9tst.dat" 
+

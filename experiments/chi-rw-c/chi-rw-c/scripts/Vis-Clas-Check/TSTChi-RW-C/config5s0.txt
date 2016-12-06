@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/Ignore-MV.Chi-RW-C.monk-2/result0.tst" "../results/Ignore-MV.Chi-RW-C.monk-2/result1.tst" "../results/Ignore-MV.Chi-RW-C.monk-2/result2.tst" "../results/Ignore-MV.Chi-RW-C.monk-2/result3.tst" "../results/Ignore-MV.Chi-RW-C.monk-2/result4.tst" "../results/Ignore-MV.Chi-RW-C.monk-2/result5.tst" "../results/Ignore-MV.Chi-RW-C.monk-2/result6.tst" "../results/Ignore-MV.Chi-RW-C.monk-2/result7.tst" "../results/Ignore-MV.Chi-RW-C.monk-2/result8.tst" "../results/Ignore-MV.Chi-RW-C.monk-2/result9.tst" "../results/Ignore-MV.Chi-RW-C.monk-2/result0.tra" "../results/Ignore-MV.Chi-RW-C.monk-2/result1.tra" "../results/Ignore-MV.Chi-RW-C.monk-2/result2.tra" "../results/Ignore-MV.Chi-RW-C.monk-2/result3.tra" "../results/Ignore-MV.Chi-RW-C.monk-2/result4.tra" "../results/Ignore-MV.Chi-RW-C.monk-2/result5.tra" "../results/Ignore-MV.Chi-RW-C.monk-2/result6.tra" "../results/Ignore-MV.Chi-RW-C.monk-2/result7.tra" "../results/Ignore-MV.Chi-RW-C.monk-2/result8.tra" "../results/Ignore-MV.Chi-RW-C.monk-2/result9.tra" 
+outputData = "../results/Vis-Clas-Check/TSTChi-RW-C/result5s0.stat" 
+
+seed = 1643004735
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

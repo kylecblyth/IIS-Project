@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/Ignore-MV.Chi-RW-C.iris/result0.tst" "../results/Ignore-MV.Chi-RW-C.iris/result1.tst" "../results/Ignore-MV.Chi-RW-C.iris/result2.tst" "../results/Ignore-MV.Chi-RW-C.iris/result3.tst" "../results/Ignore-MV.Chi-RW-C.iris/result4.tst" "../results/Ignore-MV.Chi-RW-C.iris/result5.tst" "../results/Ignore-MV.Chi-RW-C.iris/result6.tst" "../results/Ignore-MV.Chi-RW-C.iris/result7.tst" "../results/Ignore-MV.Chi-RW-C.iris/result8.tst" "../results/Ignore-MV.Chi-RW-C.iris/result9.tst" "../results/Ignore-MV.Chi-RW-C.iris/result0.tra" "../results/Ignore-MV.Chi-RW-C.iris/result1.tra" "../results/Ignore-MV.Chi-RW-C.iris/result2.tra" "../results/Ignore-MV.Chi-RW-C.iris/result3.tra" "../results/Ignore-MV.Chi-RW-C.iris/result4.tra" "../results/Ignore-MV.Chi-RW-C.iris/result5.tra" "../results/Ignore-MV.Chi-RW-C.iris/result6.tra" "../results/Ignore-MV.Chi-RW-C.iris/result7.tra" "../results/Ignore-MV.Chi-RW-C.iris/result8.tra" "../results/Ignore-MV.Chi-RW-C.iris/result9.tra" 
+outputData = "../results/Vis-Clas-Check/TSTChi-RW-C/result4s0.stat" 
+
+seed = 410467215
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/Ignore-MV.Chi-RW-C.vehicle/result0.tst" "../results/Ignore-MV.Chi-RW-C.vehicle/result1.tst" "../results/Ignore-MV.Chi-RW-C.vehicle/result2.tst" "../results/Ignore-MV.Chi-RW-C.vehicle/result3.tst" "../results/Ignore-MV.Chi-RW-C.vehicle/result4.tst" "../results/Ignore-MV.Chi-RW-C.vehicle/result5.tst" "../results/Ignore-MV.Chi-RW-C.vehicle/result6.tst" "../results/Ignore-MV.Chi-RW-C.vehicle/result7.tst" "../results/Ignore-MV.Chi-RW-C.vehicle/result8.tst" "../results/Ignore-MV.Chi-RW-C.vehicle/result9.tst" "../results/Ignore-MV.Chi-RW-C.vehicle/result0.tra" "../results/Ignore-MV.Chi-RW-C.vehicle/result1.tra" "../results/Ignore-MV.Chi-RW-C.vehicle/result2.tra" "../results/Ignore-MV.Chi-RW-C.vehicle/result3.tra" "../results/Ignore-MV.Chi-RW-C.vehicle/result4.tra" "../results/Ignore-MV.Chi-RW-C.vehicle/result5.tra" "../results/Ignore-MV.Chi-RW-C.vehicle/result6.tra" "../results/Ignore-MV.Chi-RW-C.vehicle/result7.tra" "../results/Ignore-MV.Chi-RW-C.vehicle/result8.tra" "../results/Ignore-MV.Chi-RW-C.vehicle/result9.tra" 
+outputData = "../results/Vis-Clas-Check/TSTChi-RW-C/result8s0.stat" 
+
+seed = 1177242190
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

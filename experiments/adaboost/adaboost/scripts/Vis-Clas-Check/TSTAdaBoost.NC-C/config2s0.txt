@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/Ignore-MV.AdaBoost.NC-C.glass/result0s0.tst" "../results/Ignore-MV.AdaBoost.NC-C.glass/result1s0.tst" "../results/Ignore-MV.AdaBoost.NC-C.glass/result2s0.tst" "../results/Ignore-MV.AdaBoost.NC-C.glass/result3s0.tst" "../results/Ignore-MV.AdaBoost.NC-C.glass/result4s0.tst" "../results/Ignore-MV.AdaBoost.NC-C.glass/result5s0.tst" "../results/Ignore-MV.AdaBoost.NC-C.glass/result6s0.tst" "../results/Ignore-MV.AdaBoost.NC-C.glass/result7s0.tst" "../results/Ignore-MV.AdaBoost.NC-C.glass/result8s0.tst" "../results/Ignore-MV.AdaBoost.NC-C.glass/result9s0.tst" "../results/Ignore-MV.AdaBoost.NC-C.glass/result0s0.tra" "../results/Ignore-MV.AdaBoost.NC-C.glass/result1s0.tra" "../results/Ignore-MV.AdaBoost.NC-C.glass/result2s0.tra" "../results/Ignore-MV.AdaBoost.NC-C.glass/result3s0.tra" "../results/Ignore-MV.AdaBoost.NC-C.glass/result4s0.tra" "../results/Ignore-MV.AdaBoost.NC-C.glass/result5s0.tra" "../results/Ignore-MV.AdaBoost.NC-C.glass/result6s0.tra" "../results/Ignore-MV.AdaBoost.NC-C.glass/result7s0.tra" "../results/Ignore-MV.AdaBoost.NC-C.glass/result8s0.tra" "../results/Ignore-MV.AdaBoost.NC-C.glass/result9s0.tra" 
+outputData = "../results/Vis-Clas-Check/TSTAdaBoost.NC-C/result2s0.stat" 
+
+seed = 1870576674
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK
