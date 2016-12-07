@@ -14,6 +14,7 @@ public class Classifier {
 	public static void train(ArrayList<Item> items) {
 		
 		// create features
+		features = new ArrayList<>();
 		float min;
 		float max;
 		for(int i = 0; i < 25; i++) {
@@ -23,15 +24,14 @@ public class Classifier {
 				if(min > items.get(j).mData[i]) min = items.get(j).mData[i];
 				if(max < items.get(j).mData[i]) max = items.get(j).mData[i];
 			}
-			// TODO: maybe min and max shouldnt be ints, but floats? (small sizes
-			// a problem when rounded up to 1)
-			Feature f = new Feature((int) min, (int) max + 1, i);
+
+			Feature f = new Feature(min, max, i);
 			features.add(f);
 		}
 		
 		// build tree
 		DT tree = new DT();
-		tree.build(items, features);
+		tree.build(items, features, null);
 		
 		partitions = partition(items);
 

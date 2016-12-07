@@ -34,15 +34,10 @@ public class DT {
         this.classification = classification;
     }
 	
-	public void build(ArrayList<Item> items, ArrayList<Feature> features) {
-		DT dflt = new DT(); // empty tree
-		builder(items, features, dflt);
-	}
-	
 	/*
 	 * recursive helper to build
 	 */
-	public DT builder(ArrayList<Item> items, ArrayList<Feature> features, 
+	public DT build(ArrayList<Item> items, ArrayList<Feature> features, 
 			DT dflt) {
 		if(items.size() == 0) return dflt;
 		else if(all_same(items)) { // all classes the same
@@ -54,10 +49,13 @@ public class DT {
 			Feature best_feature = chooseFeature(items, features);
 			ArrayList<Item> examples_i = new ArrayList<Item>();
 			for(int i = 0; i < best_feature.mSplit; i++) {
+				
 				// push examples in a range
-				int min = ;
-				int max = ;
+				float min = best_feature.getMin(i);
+				float max = best_feature.getMax(i);
 				for(int j = 0; j < items.size(); j++) {
+					System.out.println(items.size());
+					System.out.println(items.get(j).attr.size() + " " + best_feature.fIndex);
 					if(items.get(j).attr.get(best_feature.fIndex) > min &&
 					   items.get(j).attr.get(best_feature.fIndex) < max) {
 						examples_i.add(items.get(j));

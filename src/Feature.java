@@ -26,4 +26,12 @@ public class Feature {
 		mSplit = split;
 		fIndex = index;
 	}
+	
+	public float getMin(int i) {
+		return (float) i * (max - min) / mSplit;
+	}
+	
+	public float getMax(int i) {
+		return (float) (i + 1) * (max - min) / mSplit;
+	}
 }
