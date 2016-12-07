@@ -5,7 +5,7 @@ import java.util.ArrayList;
  */
 public class Item {
 
-	float[] mData;
+	public float[] mData;
 
 	int _class = -1;
 	/*
@@ -22,7 +22,7 @@ public class Item {
 	
 	// default constructor
 	public Item(float[] data) {
-		if(data.length == 26){
+		if(data.length == 26) {
 			mData = data;
 		} else{
 			System.err.println("Item can not be created. Data must have 26 attributes.");
