@@ -9,89 +9,79 @@ import java.util.HashMap;
 
 public class DT {
 	// state
-	TreeNode root;
     float classification;
 
-	
-	public DT() {
-		//TODO: actually build the tree
-		// if examples is empty then return default
-		// else if all examples have same classification then return classification
-		// else if attributes is empty, return mode(examples)
-		// else
-			// best <-- choose_atr(attributes, examples)
-			// tree <-- a new decision tree with root test best
-			// for each val vi of best do
-				// examples_i <-- { elements of examples with best = vi }
-				// subtree <-- DT(examples_i, attr - best, mode(examples))
-				// add a branch to tree with label vi and subtree subtree
-			// return tree
-		root = null;
-        classification = 0;
-	}
-
-    private DT(float classification){
+    private DT(float classification, Feature testFeature){
         this.classification = classification;
+        this.testFeature = testFeature;
+        this.branches = new HashMap<>();
     }
 	
 	/*
 	 * recursive helper to build
 	 */
-	public DT build(ArrayList<Item> items, ArrayList<Feature> features, 
-			DT dflt) {
-		if(items.size() == 0) return dflt;
+	public static DT build(ArrayList<Item> items, ArrayList<Feature> features,
+			float dflt) {
+		if(items.size() == 0) return new DT(dflt,null);
 		else if(all_same(items)) { // all classes the same
-			// return classification
+			return new DT(items.get(0).mData[25],null);
 		} else if(features.size() == 0) {
 			// return mode(examples)
+            return new DT(mode(items),null);
 		} else {
 			// choose best
-			Feature best_feature = chooseFeature(items, features);
-			ArrayList<Item> examples_i = new ArrayList<Item>();
-			for(int i = 0; i < best_feature.mSplit; i++) {
+			Feature bestFeature = chooseFeature(items, features);
+            DT tree = new DT(0, bestFeature);
+			ArrayList<Item> examples_i = new ArrayList<>();
+			for(int i = 0; i < bestFeature.mSplit; i++) {
 				
 				// push examples in a range
-				float min = best_feature.getMin(i);
-				float max = best_feature.getMax(i);
+				float min = bestFeature.getMin(i);
+				float max = bestFeature.getMax(i);
 				for(int j = 0; j < items.size(); j++) {
-					System.out.println(items.size());
-					System.out.println(items.get(j).attr.size() + " " + best_feature.fIndex);
-					if(items.get(j).attr.get(best_feature.fIndex) > min &&
-					   items.get(j).attr.get(best_feature.fIndex) < max) {
+					//System.out.println(items.size());
+					//System.out.println(items.get(j).mData.length-1 + " " + best_feature.fIndex);
+					if(items.get(j).mData[bestFeature.fIndex] > min &&
+					   items.get(j).mData[bestFeature.fIndex] < max) {
 						examples_i.add(items.get(j));
 					}
 				}
-			}
-			
-			// create subtree
-			DT sub = new DT();
-			sub.build(examples_i, features, mode(items));
+                // create subtree
+                ArrayList<Feature> tempfeatures = (ArrayList<Feature>)features.clone();
+                tempfeatures.remove(bestFeature);
+                DT sub = DT.build(examples_i, tempfeatures, mode(items));
+                tree.branches.put((float)i,sub);
+            }
+
+            return tree;
+
 		}
-		
-		//TODO: fix
-		return new DT();
 	}
 	
-	public Feature chooseFeature(ArrayList<Item> items, 
+	public static Feature chooseFeature(ArrayList<Item> items,
 			ArrayList<Feature> features) {
 		//TODO: do
 		return features.get(0);
 	}
 	
-	private boolean all_same(ArrayList<Item> items) {
-		//TODO: do
-		return false;
+	private static boolean all_same(ArrayList<Item> items) {
+        for (int i = 1; i < items.size(); i++) {
+            if(items.get(i).mData[25] != items.get(i-1).mData[25]){
+                return false;
+            }
+        }
+        return true;
 	}
 
 
     /**
-     * return a DT with classification of the most common classification from items.
+     * return the most common classification from items.
      *
      */
-    private DT mode(ArrayList<Item> items){
+    private static float mode(ArrayList<Item> items){
         float[] classifications = new float[items.size()];
         for (int i = 0; i < items.size(); i++) {
-            classifications[i] = items.get(i).mData[26];
+            classifications[i] = items.get(i).mData[25];
         }
         float mode = 0;
         int count = 0;
@@ -109,7 +99,7 @@ public class DT {
                 mode = classification;
             }
         }
-        return new DT(classification);
+        return mode;
     }
 
 
@@ -135,7 +125,15 @@ public class DT {
         if(this.branches.isEmpty()){
             return -1;
         }
+        if(this.testFeature == null){
+            return -1;
+        }
         int index = this.testFeature.fIndex;
+        // TODO
+        // find a way to get this to be the proper number.
+        // up above I store it as which iteration it was on,
+        // so you should be able to figure out the min/max of
+        // each iteration and then figure out where this value falls.
         float fValue = item.mData[index];
 
         return this.branches.get(fValue).classify(item);

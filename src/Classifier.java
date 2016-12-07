@@ -7,6 +7,7 @@ public class Classifier {
 	// state
 	static ArrayList<ArrayList<Item>> partitions;
 	static ArrayList<Feature> features;
+    static DT tree;
 	
 	/*
 	 * Takes an arraylist of data and trains the classifier
@@ -30,9 +31,8 @@ public class Classifier {
 		}
 		
 		// build tree
-		DT tree = new DT();
-		tree.build(items, features, null);
-		
+		tree = DT.build(items, features, 0);
+
 		partitions = partition(items);
 
 		// perform testing
@@ -41,6 +41,10 @@ public class Classifier {
 			//TODO: do
 		}
 	}
+
+	public static float classify(Item item){
+        return tree.classify(item);
+    }
 	
 	/**
 	 * Partitions the data into PARTITION_SIZE equal-sized groups

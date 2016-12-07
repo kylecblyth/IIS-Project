@@ -36,15 +36,14 @@ public class Program {
 					data[i] = Float.parseFloat(holder);
 				}
 
-				
-				for(int i = 0; i < strdata.length; i++) {
-					if(strdata.length == 26) {
-						Item item = new Item(data);
-						items.add(item);
-					} else {
-						System.out.println("Data incorrectly formated.");
-					}
+				if(strdata.length == 26) {
+					Item item = new Item(data);
+					items.add(item);
+				} else {
+					System.out.println("Data incorrectly formated.");
 				}
+
+
 			}
 			
 		} catch(IndexOutOfBoundsException e) {
@@ -62,7 +61,21 @@ public class Program {
 			}
 		}
 		
-		Classifier.train(items);
+		try{
+			Classifier.train(items);
+			System.out.println("Done training");
+			int numCorrect = 0;
+			for(Item i: items){
+				float clss = Classifier.classify(i);
+				if(clss == i.mData[25]){
+					System.out.println("I GOT ONE, "+numCorrect);
+					numCorrect++;
+				}
+			}
+			System.out.println(numCorrect*1.0/items.size());
+		}catch(Exception e){
+			e.printStackTrace();
+		}
 	}
 	
 	private static void usage() {
