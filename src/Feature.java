@@ -9,18 +9,21 @@ public class Feature {
 	float min;
 	float max;
 	int mSplit; // how many ranges to do
+	int fIndex; // index of this feature in the item array
 	
 	// constructor. default split is 10
-	public Feature(float minVal, float maxVal) {
+	public Feature(float minVal, float maxVal, int index) {
 		min = minVal;
 		max = maxVal;
 		mSplit = 10;
+		fIndex = index;
 	}
 	
 	// constructor with split
-	public Feature(float minVal, float maxVal, int split) {
+	public Feature(float minVal, float maxVal, int split, int index) {
 		min = minVal;
 		max = maxVal;
 		mSplit = split;
+		fIndex = index;
 	}
 }

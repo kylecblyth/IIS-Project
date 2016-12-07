@@ -39,7 +39,7 @@ public class Classifier {
 				if(min > items.get(j).mData[i]) min = items.get(j).mData[i];
 				if(max < items.get(j).mData[i]) max = items.get(j).mData[i];
 			}
-			Feature f = new Feature((int) min, (int) max + 1);
+			Feature f = new Feature((int) min, (int) max + 1, i);
 			features.add(f);
 		}
 		
