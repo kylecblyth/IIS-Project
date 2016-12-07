@@ -37,9 +37,10 @@ public class DT {
 	}
 	
 	/*
-	 * 
+	 * recursive helper to build
 	 */
-	public DT builder(ArrayList<Item> items, ArrayList<Feature> features, DT dflt) {
+	public DT builder(ArrayList<Item> items, ArrayList<Feature> features, 
+			DT dflt) {
 		if(items.size() == 0) return dflt;
 		else if(all_same(items)) { // all classes the same
 			// return classification
@@ -48,10 +49,30 @@ public class DT {
 		} else {
 			// choose best
 			Feature best_feature = chooseFeature(items, features);
+			ArrayList<Item> examples_i = new ArrayList<Item>();
+			for(int i = 0; i < best_feature.mSplit; i++) {
+				// push examples in a range
+				int min = ;
+				int max = ;
+				for(int j = 0; j < items.size(); j++) {
+					if(items.get(j).attr.get(best_feature.fIndex) > min &&
+					   items.get(j).attr.get(best_feature.fIndex) < max) {
+						examples_i.add(items.get(j));
+					}
+				}
+			}
+			
+			// create subtree
+			DT sub = new DT();
+			sub.build(examples_i, features, mode(items));
 		}
+		
+		//TODO: fix
+		return new DT();
 	}
 	
-	public Feature chooseFeature(ArrayList<Item> items, ArrayList<Feature> features) {
+	public Feature chooseFeature(ArrayList<Item> items, 
+			ArrayList<Feature> features) {
 		//TODO: do
 		return features.get(0);
 	}
