@@ -17,22 +17,22 @@ public class Classifier {
 		float max;
 		System.out.println(items.size());
 		for(int i = 0; i < 25; i++) {
-			min = items.get(0).attr.get(i);
+			min = items.get(0).mData[i];
 			max = min;
 			for(int j = 0; j < items.size(); j++) {
-				if(min > items.get(j).attr.get(i)) min = items.get(j).attr.get(i);
-				if(max < items.get(j).attr.get(i)) max = items.get(j).attr.get(i);
+				if(min > items.get(j).mData[i]) min = items.get(j).mData[i];
+				if(max < items.get(j).mData[i]) max = items.get(j).mData[i];
 			}
 			System.out.println("[" + i + "]" + "min: " + min + " max:" + max);
 		}
-		
+
 		// build tree
 		//buildTree(partitions);
-		
+
 		// perform testing
 		for(int t = 0; t < NUM_PARTITIONS; t++) { // t is the test partition
 			// train on sets that aren't 't'
-			
+
 		}
 	}
 	
@@ -77,7 +77,6 @@ public class Classifier {
 	/**
 	 * Partitions the data into PARTITION_SIZE equal-sized groups
 	 * @param items list of data
-	 * @param NUM_PARTITIONS number of partitions to divide the list into
 	 * @return
 	 */
 	public static ArrayList<ArrayList<Item>> partition(ArrayList<Item> items) {

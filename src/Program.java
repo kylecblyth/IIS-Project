@@ -21,48 +21,25 @@ public class Program {
 		
 		// read in file from arguments
 		BufferedReader br = null;
-		String line = "";
+		String line;
 		
 		try {
 			String file_name = args[0];
 			
 			br = new BufferedReader(new FileReader(file_name));
 			while((line = br.readLine()) != null) {
-				String[] data = line.split(";");
+				String[] strdata = line.split(";");
+				float[] data = new float[strdata.length];
 				// create the data
-				for(int i = 0; i < data.length; i++) {
-					data[i] = data[i].replace(',', '.');
+				for(int i = 0; i < strdata.length; i++) {
+					String holder = strdata[i].replace(',', '.');
+					data[i] = Float.parseFloat(holder);
 				}
+
 				
-				for(int i = 0; i < data.length; i++) {
-					if(data.length == 26) {
-						Item item = new Item(
-							Integer.parseInt(data[0]),
-							Integer.parseInt(data[1]), 
-							Integer.parseInt(data[2]), 
-							Integer.parseInt(data[3]),
-							Float.parseFloat(data[4]),
-							Float.parseFloat(data[5]),
-							Float.parseFloat(data[6]),
-							Float.parseFloat(data[7]),
-							Float.parseFloat(data[8]),
-							Float.parseFloat(data[9]),
-							Float.parseFloat(data[10]),
-							Float.parseFloat(data[11]),
-							Float.parseFloat(data[12]),
-							Float.parseFloat(data[13]),
-							Float.parseFloat(data[14]),
-							Float.parseFloat(data[15]),
-							Float.parseFloat(data[16]),
-							Float.parseFloat(data[17]),
-							Float.parseFloat(data[18]),
-							Float.parseFloat(data[19]),
-							Float.parseFloat(data[20]),
-							Float.parseFloat(data[21]),
-							Float.parseFloat(data[22]),
-							Float.parseFloat(data[23]),
-							Float.parseFloat(data[24]),
-							Integer.parseInt(data[25]));
+				for(int i = 0; i < strdata.length; i++) {
+					if(strdata.length == 26) {
+						Item item = new Item(data);
 						items.add(item);
 					} else {
 						System.out.println("Data incorrectly formated.");
