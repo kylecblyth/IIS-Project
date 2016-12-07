@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class DT {
 	// state
 	TreeNode root;
+    float classification;
 	
 	public DT() {
 		//TODO: actually build the tree
@@ -25,6 +26,10 @@ public class DT {
 			// return tree
 		root = null;
 	}
+
+    private DT(float classification){
+        this.classification = classification;
+    }
 	
 	public void build(ArrayList<Item> items, ArrayList<Feature> features) {
 		DT dflt = new DT(); // empty tree
@@ -55,4 +60,33 @@ public class DT {
 		//TODO: do
 		return false;
 	}
+
+
+    /**
+     * return a DT with classification of the most common classification from items.
+     *
+     */
+    private DT mode(ArrayList<Item> items){
+        float[] classifications = new float[items.size()];
+        for (int i = 0; i < items.size(); i++) {
+            classifications[i] = items.get(i).mData[26];
+        }
+        float mode = 0;
+        int count = 0;
+
+        for (int i = 0; i < classifications.length; i++) {
+            float classification = classifications[i];
+            int tempCount = 1;
+            for (int j = 1; j< classifications.length; j++){
+                if(classification == classifications[j]){
+                    tempCount++;
+                }
+            }
+            if( tempCount > count){
+                count = tempCount;
+                mode = classification;
+            }
+        }
+        return new DT(classification);
+    }
 } 
