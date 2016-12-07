@@ -1,0 +1,4 @@
+algorithm = Delete Instances with Missing Values
+inputData = "../datasets/iris/iris-10-3tra.dat" "../datasets/iris/iris-10-3tst.dat" 
+outputData = "../datasets/Ignore-MV.iris/Ignore-MV.iris-10-3tra.dat" "../datasets/Ignore-MV.iris/Ignore-MV.iris-10-3tst.dat" 
+

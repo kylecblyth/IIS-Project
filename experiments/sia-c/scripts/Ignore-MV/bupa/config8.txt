@@ -1,0 +1,4 @@
+algorithm = Delete Instances with Missing Values
+inputData = "../datasets/bupa/bupa-10-9tra.dat" "../datasets/bupa/bupa-10-9tst.dat" 
+outputData = "../datasets/Ignore-MV.bupa/Ignore-MV.bupa-10-9tra.dat" "../datasets/Ignore-MV.bupa/Ignore-MV.bupa-10-9tst.dat" 
+

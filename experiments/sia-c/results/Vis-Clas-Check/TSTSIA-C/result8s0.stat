@@ -1,0 +1,44 @@
+TEST RESULTS
+============
+Classifier= vehicle 
+Fold 0 : CORRECT=0.6352941176470588 N/C=0.0 
+Fold 1 : CORRECT=0.5529411764705883 N/C=0.0 
+Fold 2 : CORRECT=0.6352941176470588 N/C=0.0 
+Fold 3 : CORRECT=0.611764705882353 N/C=0.0 
+Fold 4 : CORRECT=0.6235294117647059 N/C=0.0 
+Fold 5 : CORRECT=0.5176470588235293 N/C=0.0 
+Fold 6 : CORRECT=0.5238095238095238 N/C=0.0 
+Fold 7 : CORRECT=0.5833333333333333 N/C=0.0 
+Fold 8 : CORRECT=0.7023809523809523 N/C=0.0 
+Fold 9 : CORRECT=0.5833333333333333 N/C=0.0 
+Global Classification Error + N/C:
+0.4030672268907563 
+stddev Global Classification Error + N/C:
+0.05378499383282665 
+Correctly classified:
+0.5969327731092438 
+Global N/C:
+0.0 
+
+TRAIN RESULTS
+============
+Classifier= vehicle 
+Summary of data, Classifiers: vehicle 
+Fold 0 : CORRECT=1.0 N/C=0.0 
+Fold 1 : CORRECT=1.0 N/C=0.0 
+Fold 2 : CORRECT=1.0 N/C=0.0 
+Fold 3 : CORRECT=1.0 N/C=0.0 
+Fold 4 : CORRECT=1.0 N/C=0.0 
+Fold 5 : CORRECT=1.0 N/C=0.0 
+Fold 6 : CORRECT=1.0 N/C=0.0 
+Fold 7 : CORRECT=1.0 N/C=0.0 
+Fold 8 : CORRECT=1.0 N/C=0.0 
+Fold 9 : CORRECT=1.0 N/C=0.0 
+Global Classification Error + N/C:
+0.0 
+stddev Global Classification Error + N/C:
+0.0 
+Correctly classified:
+1.0 
+Global N/C:
+0.0 

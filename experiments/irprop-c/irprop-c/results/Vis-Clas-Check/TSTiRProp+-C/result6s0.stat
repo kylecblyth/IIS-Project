@@ -1,0 +1,44 @@
+TEST RESULTS
+============
+Classifier= unknow 
+Fold 0 : CORRECT=0.8636363636363636 N/C=0.0 
+Fold 1 : CORRECT=1.0 N/C=0.0 
+Fold 2 : CORRECT=0.8181818181818181 N/C=0.0 
+Fold 3 : CORRECT=1.0 N/C=0.0 
+Fold 4 : CORRECT=1.0 N/C=0.0 
+Fold 5 : CORRECT=1.0 N/C=0.0 
+Fold 6 : CORRECT=0.8571428571428572 N/C=0.0 
+Fold 7 : CORRECT=1.0 N/C=0.0 
+Fold 8 : CORRECT=0.8571428571428572 N/C=0.0 
+Fold 9 : CORRECT=1.0 N/C=0.0 
+Global Classification Error + N/C:
+0.060389610389610396 
+stddev Global Classification Error + N/C:
+0.07483326042777122 
+Correctly classified:
+0.9396103896103896 
+Global N/C:
+0.0 
+
+TRAIN RESULTS
+============
+Classifier= unknow 
+Summary of data, Classifiers: unknow 
+Fold 0 : CORRECT=0.8549222797927462 N/C=0.0 
+Fold 1 : CORRECT=0.9896373056994818 N/C=0.0 
+Fold 2 : CORRECT=0.8601036269430051 N/C=0.0 
+Fold 3 : CORRECT=0.9740932642487047 N/C=0.0 
+Fold 4 : CORRECT=0.9740932642487047 N/C=0.0 
+Fold 5 : CORRECT=0.9845360824742269 N/C=0.0 
+Fold 6 : CORRECT=0.8556701030927836 N/C=0.0 
+Fold 7 : CORRECT=0.979381443298969 N/C=0.0 
+Fold 8 : CORRECT=0.8608247422680413 N/C=0.0 
+Fold 9 : CORRECT=0.979381443298969 N/C=0.0 
+Global Classification Error + N/C:
+0.0687356444634368 
+stddev Global Classification Error + N/C:
+0.06009376777741027 
+Correctly classified:
+0.9312643555365632 
+Global N/C:
+0.0 

@@ -1,0 +1,36 @@
+@Accuracy in Training: 0.9967373572593801
+@Accuracy in Test: 0.9285714285714286
+@Execution Time:14seconds.
+@Rule Base: 31 rules
+
+1: clumpThickness = [1.0,5.03125] AND cellSize = [1.0,1.5] AND epithelialSize = [1.5,2.25] AND blandChromatin = [1.0,5.03125]: 2, Strength: 0.678391959798995
+2: cellShape = [4.0625,10.0] AND normalNucleoli = [6.015625,10.0]: 4, Strength: 0.4046511627906977
+3: clumpThickness = [8.00390625,10.0]: 4, Strength: 0.3488372093023256
+4: cellSize = [4.0625,10.0] AND blandChromatin = [4.0625,10.0]: 4, Strength: 0.5441860465116279
+5: clumpThickness = [1.5,8.00390625] AND cellShape = [1.0,5.03125] AND bareNuclei = [2.25,3.125] AND blandChromatin = [1.0,5.03125] AND normalNucleoli = [1.5,4.0625]: 4, Strength: 0.018604651162790697
+6: clumpThickness = [1.0,10.0] AND cellShape = [1.0,3.125] AND bareNuclei = [1.0,3.125] AND blandChromatin = [1.0,5.03125] AND mitoses = [1.0,3.125]: 2, Strength: 0.5326633165829145
+7: cellShape = [5.03125,8.00390625] AND blandChromatin = [4.0625,10.0]: 4, Strength: 0.26046511627906976
+8: clumpThickness = [1.0,10.0] AND marginalAdhesion = [6.015625,10.0] AND epithelialSize = [1.5,8.00390625] AND blandChromatin = [6.015625,10.0]: 4, Strength: 0.20930232558139536
+9: cellShape = [1.0,10.0] AND bareNuclei = [8.00390625,10.0] AND blandChromatin = [4.0625,10.0]: 4, Strength: 0.4418604651162791
+10: cellSize = [1.0,3.125] AND cellShape = [1.0,3.125] AND bareNuclei = [1.0,1.5]: 2, Strength: 0.8592964824120602
+11: clumpThickness = [4.0625,7.0078125] AND cellSize = [8.00390625,10.0] AND cellShape = [5.03125,8.00390625] AND marginalAdhesion = [3.125,6.015625] AND epithelialSize = [3.125,6.015625] AND bareNuclei = [7.0078125,8.00390625] AND blandChromatin = [3.125,4.0625] AND normalNucleoli = [1.5,2.25]: 2, Strength: 0.002512562814070352
+12: clumpThickness = [4.0625,7.0078125] AND cellSize = [1.0,5.03125] AND marginalAdhesion = [1.0,5.03125] AND epithelialSize = [1.0,5.03125] AND bareNuclei = [1.0,3.125] AND normalNucleoli = [1.0,1.5]: 2, Strength: 0.16834170854271358
+13: clumpThickness = [1.0,10.0] AND marginalAdhesion = [3.125,4.0625] AND normalNucleoli = [2.25,10.0]: 4, Strength: 0.07906976744186046
+14: clumpThickness = [1.0,7.0078125] AND marginalAdhesion = [3.125,6.015625] AND blandChromatin = [4.0625,10.0]: 4, Strength: 0.07906976744186046
+15: clumpThickness = [7.0078125,8.00390625] AND cellSize = [2.25,5.03125] AND cellShape = [4.0625,7.0078125] AND marginalAdhesion = [1.5,4.0625] AND epithelialSize = [1.5,4.0625] AND blandChromatin = [3.125,4.0625] AND normalNucleoli = [1.5,4.0625] AND mitoses = [1.0,1.5]: 2, Strength: 0.002512562814070352
+16: clumpThickness = [1.0,7.0078125] AND cellSize = [1.0,7.0078125] AND cellShape = [1.5,6.015625] AND marginalAdhesion = [1.0,3.125] AND blandChromatin = [1.5,2.25]: 2, Strength: 0.07537688442211055
+17: cellSize = [4.0625,7.0078125] AND cellShape = [1.0,10.0]: 4, Strength: 0.2837209302325581
+18: marginalAdhesion = [1.0,3.125] AND epithelialSize = [2.25,10.0] AND bareNuclei = [6.015625,10.0]: 4, Strength: 0.17674418604651163
+19: clumpThickness = [6.015625,10.0] AND cellShape = [1.0,7.0078125] AND bareNuclei = [8.00390625,10.0]: 4, Strength: 0.20930232558139536
+20: clumpThickness = [4.0625,7.0078125] AND cellSize = [1.0,5.03125] AND cellShape = [1.0,5.03125] AND marginalAdhesion = [1.5,8.00390625] AND epithelialSize = [1.5,4.0625] AND blandChromatin = [1.5,4.0625] AND normalNucleoli = [1.5,8.00390625] AND mitoses = [1.5,4.0625]: 2, Strength: 0.005025125628140704
+21: clumpThickness = [1.5,8.00390625] AND cellSize = [1.5,4.0625] AND cellShape = [2.25,5.03125] AND marginalAdhesion = [2.25,3.125] AND epithelialSize = [1.0,7.0078125] AND bareNuclei = [2.25,7.0078125] AND blandChromatin = [2.25,5.03125] AND normalNucleoli = [5.03125,8.00390625]: 2, Strength: 0.005025125628140704
+22: clumpThickness = [1.5,8.00390625] AND cellSize = [1.5,6.015625] AND cellShape = [4.0625,7.0078125] AND bareNuclei = [8.00390625,10.0] AND blandChromatin = [1.0,7.0078125]: 4, Strength: 0.10697674418604651
+23: epithelialSize = [1.0,10.0] AND normalNucleoli = [8.00390625,10.0]: 4, Strength: 0.3116279069767442
+24: cellSize = [1.0,1.5] AND normalNucleoli = [1.0,1.5]: 2, Strength: 0.39949748743718594
+25: clumpThickness = [7.0078125,8.00390625] AND cellSize = [3.125,4.0625] AND cellShape = [3.125,4.0625] AND marginalAdhesion = [4.0625,5.03125] AND epithelialSize = [3.125,4.0625] AND bareNuclei = [6.015625,7.0078125] AND blandChromatin = [6.015625,7.0078125] AND normalNucleoli = [6.015625,10.0] AND mitoses = [1.0,3.125]: 2, Strength: 0.002512562814070352
+26: clumpThickness = [1.0,10.0] AND cellShape = [6.015625,10.0] AND normalNucleoli = [2.25,10.0]: 4, Strength: 0.4372093023255814
+27: cellSize = [2.25,5.03125] AND cellShape = [1.0,7.0078125] AND epithelialSize = [3.125,6.015625] AND normalNucleoli = [1.5,4.0625]: 4, Strength: 0.037209302325581395
+28: clumpThickness = [3.125,6.015625] AND cellSize = [2.25,5.03125] AND cellShape = [1.5,6.015625] AND marginalAdhesion = [3.125,6.015625] AND blandChromatin = [1.0,5.03125] AND normalNucleoli = [1.0,3.125] AND mitoses = [1.0,1.5]: 2, Strength: 0.005025125628140704
+29: epithelialSize = [3.125,6.015625] AND blandChromatin = [1.5,8.00390625] AND normalNucleoli = [2.25,5.03125]: 4, Strength: 0.09302325581395349
+30: clumpThickness = [6.015625,10.0] AND bareNuclei = [1.0,5.03125] AND blandChromatin = [4.0625,10.0]: 4, Strength: 0.11162790697674418
+31: clumpThickness = [1.5,8.00390625] AND marginalAdhesion = [1.0,7.0078125] AND epithelialSize = [1.5,2.25] AND bareNuclei = [1.0,7.0078125] AND normalNucleoli = [1.0,1.5]: 2, Strength: 0.507537688442211

@@ -1,0 +1,9 @@
+algorithm = Supervised Inductive Algorithm
+inputData = "../datasets/Ignore-MV.new-thyroid/Ignore-MV.new-thyroid-10-3tra.dat" "../datasets/Ignore-MV.new-thyroid/Ignore-MV.new-thyroid-10-3tra.dat" "../datasets/Ignore-MV.new-thyroid/Ignore-MV.new-thyroid-10-3tst.dat" 
+outputData = "../results/Ignore-MV.SIA-C.new-thyroid/result2s0.tra" "../results/Ignore-MV.SIA-C.new-thyroid/result2s0.tst" "../results/Ignore-MV.SIA-C.new-thyroid/result2s0e0.txt"  
+
+seed = 1286082570
+Number_of_Iterations = 200
+Alfa = 150
+Beta = 0
+Threshold_Strength = 0

@@ -1,0 +1,44 @@
+TEST RESULTS
+============
+Classifier= pima 
+Fold 0 : CORRECT=0.6883116883116883 N/C=0.0 
+Fold 1 : CORRECT=0.6923076923076923 N/C=0.0 
+Fold 2 : CORRECT=0.6973684210526316 N/C=0.0 
+Fold 3 : CORRECT=0.7142857142857143 N/C=0.0 
+Fold 4 : CORRECT=0.7272727272727273 N/C=0.0 
+Fold 5 : CORRECT=0.7631578947368421 N/C=0.0 
+Fold 6 : CORRECT=0.7142857142857143 N/C=0.0 
+Fold 7 : CORRECT=0.7631578947368421 N/C=0.0 
+Fold 8 : CORRECT=0.6883116883116883 N/C=0.0 
+Fold 9 : CORRECT=0.7142857142857143 N/C=0.0 
+Global Classification Error + N/C:
+0.28372548504127454 
+stddev Global Classification Error + N/C:
+0.026503995133280115 
+Correctly classified:
+0.7162745149587255 
+Global N/C:
+0.0 
+
+TRAIN RESULTS
+============
+Classifier= pima 
+Summary of data, Classifiers: pima 
+Fold 0 : CORRECT=1.0 N/C=0.0 
+Fold 1 : CORRECT=1.0 N/C=0.0 
+Fold 2 : CORRECT=1.0 N/C=0.0 
+Fold 3 : CORRECT=1.0 N/C=0.0 
+Fold 4 : CORRECT=1.0 N/C=0.0 
+Fold 5 : CORRECT=1.0 N/C=0.0 
+Fold 6 : CORRECT=1.0 N/C=0.0 
+Fold 7 : CORRECT=1.0 N/C=0.0 
+Fold 8 : CORRECT=1.0 N/C=0.0 
+Fold 9 : CORRECT=1.0 N/C=0.0 
+Global Classification Error + N/C:
+0.0 
+stddev Global Classification Error + N/C:
+0.0 
+Correctly classified:
+1.0 
+Global N/C:
+0.0 
