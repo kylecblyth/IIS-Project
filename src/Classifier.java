@@ -13,23 +13,7 @@ public class Classifier {
 	 */
 	public static void train(ArrayList<Item> items) {
 		
-		// build tree
-		DT tree = buildTree(items);
-
-		// perform testing
-		for(int t = 0; t < NUM_PARTITIONS; t++) { // t is the test partition
-			// train on sets that aren't 't'
-			//TODO: do
-		}
-	}
-	
-	/**
-	 * Builds the decision tree
-	 */
-	private static DT buildTree(ArrayList<Item> items) {
-		DT tree = new DT();
-		
-		partitions = partition(items);
+		// create features
 		float min;
 		float max;
 		for(int i = 0; i < 25; i++) {
@@ -43,9 +27,16 @@ public class Classifier {
 			features.add(f);
 		}
 		
-		//TODO: actually build the tree
+		// build tree
+		DT tree = new DT(items, features);
 		
-		return tree;
+		partitions = partition(items);
+
+		// perform testing
+		for(int t = 0; t < NUM_PARTITIONS; t++) { // t is the test partition
+			// train on sets that aren't 't'
+			//TODO: do
+		}
 	}
 	
 	/**
