@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Represents a decision tree
@@ -10,6 +11,7 @@ public class DT {
 	// state
 	TreeNode root;
     float classification;
+
 	
 	public DT() {
 		//TODO: actually build the tree
@@ -25,6 +27,7 @@ public class DT {
 				// add a branch to tree with label vi and subtree subtree
 			// return tree
 		root = null;
+        classification = 0;
 	}
 
     private DT(float classification){
@@ -109,5 +112,34 @@ public class DT {
             }
         }
         return new DT(classification);
+    }
+
+
+    /*
+    Kyle this is for classify stuff. I don't know if you used these or used
+    different names for building, but these are what I'm using so feel free to
+    rework them in the classify function to fit what you have.
+     */
+    // feature that this node is testing.
+    Feature testFeature;
+    // branches connected to this node.
+    HashMap<Float, DT> branches;
+
+    /**
+     * Classify the item if you can, or return -1
+     * @param item
+     * @return
+     */
+    public float classify(Item item){
+        if(this.classification != 0){
+            return this.classification;
+        }
+        if(this.branches.isEmpty()){
+            return -1;
+        }
+        int index = this.testFeature.fIndex;
+        float fValue = item.mData[index];
+
+        return this.branches.get(fValue).classify(item);
     }
 } 
