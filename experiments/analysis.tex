@@ -9,14 +9,39 @@
 \pagestyle{empty}
 \maketitle
 \thispagestyle{empty}
-\section{Training Phase Analysis}
 
+\pagebreak
 
+\section{Training Phase}
 
+\subsection {Algorithm Accuracy}
+\begin {table}[!htp]
+\caption {Accuracy During Training of the Algorithms}
+\centering
+\begin{tiny}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}\hline
+Data sets&AdaBoost.NC-C&C45-C&Ripper-C&SIA-C&GFS-GCCL-C&Chi-RW-C&iRProp+-c\\\hline
+bupa&0.8888712948&0.8588887296&0.8595852374&1.0&0.5999858288&0.5987037249&0.735583307\\
+cleveland&0.6520983632&0.8305207032&0.8200435419&1.0&0.5667956505&0.9139676423&0.6681685244\\
+glass&0.6661449733&0.9371804036&0.9077588163&1.0&0.6854301106&0.659897225&0.6000364304\\
+haberman&0.7941396574&0.7585177866&0.5689459816&0.974944664&0.7385638999&0.7425546772&0.7723227931\\
+iris&0.6666666667&0.98&0.9466666667&1.0&0.9577777778&0.9377777778&0.9762962963\\
+monk2&1.0&1.0&1.0&0.6127404703&0.9722272853&0.9724856798&0.9794045317\\
+new-thyroid&0.8599487207&0.9844986913&0.9927648096&1.0&0.8749452487&0.8594359276&0.9312643555\\
+pima&0.9186947065&0.8381056819&0.8504096379&1.0&0.6976281338&0.7521719218&0.7748853005\\
+vehicle&0.4841081461.0&0.9055718232&0.8794465081.0&1.0&0.6201682411.0&0.6591842823&0.7407407024\\
+wine&0.7297166149&0.988761646&0.998136646&1.0&0.9769060559&0.988140528&1\\
+wisconsin&0.9907306085&0.9812959722&0.9837358005&0.9985347264&0.9762505403&0.9803187761.0&0.9816187955\\
+\hline
+\end{tabular}
+\end{tiny}
+\end{table}
+\flushleft
 \subsection {Ranking}
 Average ranks obtained by applying the Friedman procedure to the accuracy reported by each of the algorithms during their training phase.
 
 \begin{table}[!htp]
+\caption{Average Rankings of the algorithms}
 \centering
 \begin{tabular}{|c|c|}\hline
 Algorithm&Ranking\\\hline
@@ -29,97 +54,17 @@ Chi-RW-C & 5.4545\\
 iRProp+-c & 4.1364\\
 \hline
 \end{tabular}
-\caption{Average Rankings of the algorithms}
 \end{table}
-
-Friedman statistic considering reduction performance (distributed according to chi-square with 6 degrees of freedom: 29.094156.
-
+\flushleft
 P-value computed by Friedman Test: 5.8390905970928664E-5.\newline
 
-
-
 \pagebreak
 
-\subsection{Post hoc comparisons}
-
-Results achieved on post hoc comparisons for $\alpha = 0.05$, $\alpha = 0.10$ and adjusted p-values.
-
-\subsubsection{P-values for $\alpha=0.05$}
+\subsection{Adjusted p-values}
 
 \begin{table}[!htp]
-\centering\scriptsize
-\begin{tabular}{cccccc}
-$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$&Holm&Shaffer\\
-\hline21&SIA-C vs. GFS-GCCL-C&4.589213&0.000004&0.002381&0.002381\\
-20&SIA-C vs. Chi-RW-C&4.194442&0.000027&0.0025&0.003333\\
-19&AdaBoost.NC-C vs. SIA-C&3.010129&0.002611&0.002632&0.003333\\
-18&C45-C vs. GFS-GCCL-C&2.86209&0.004209&0.002778&0.003333\\
-17&SIA-C vs. iRProp+-c&2.763397&0.00572&0.002941&0.003333\\
-16&Ripper-C vs. GFS-GCCL-C&2.566012&0.010288&0.003125&0.003333\\
-15&C45-C vs. Chi-RW-C&2.467319&0.013613&0.003333&0.003333\\
-14&Ripper-C vs. Chi-RW-C&2.171241&0.029913&0.003571&0.003571\\
-13&Ripper-C vs. SIA-C&2.023201&0.043052&0.003846&0.003846\\
-12&GFS-GCCL-C vs. iRProp+-c&1.825816&0.067878&0.004167&0.004167\\
-11&C45-C vs. SIA-C&1.727123&0.084146&0.004545&0.004545\\
-10&AdaBoost.NC-C vs. GFS-GCCL-C&1.579084&0.114317&0.005&0.005\\
-9&Chi-RW-C vs. iRProp+-c&1.431045&0.152417&0.005556&0.005556\\
-8&AdaBoost.NC-C vs. C45-C&1.283006&0.19949&0.00625&0.00625\\
-7&AdaBoost.NC-C vs. Chi-RW-C&1.184313&0.236289&0.007143&0.007143\\
-6&C45-C vs. iRProp+-c&1.036274&0.300074&0.008333&0.008333\\
-5&AdaBoost.NC-C vs. Ripper-C&0.986928&0.323678&0.01&0.01\\
-4&Ripper-C vs. iRProp+-c&0.740196&0.459181&0.0125&0.0125\\
-3&GFS-GCCL-C vs. Chi-RW-C&0.394771&0.693012&0.016667&0.016667\\
-2&C45-C vs. Ripper-C&0.296078&0.76717&0.025&0.025\\
-1&AdaBoost.NC-C vs. iRProp+-c&0.246732&0.805116&0.05&0.05\\
-\hline
-\end{tabular}
-\caption{P-values Table for $\alpha=0.05$}
-\end{table}Holm's procedure rejects those hypotheses that have an unadjusted p-value $\le0.002778$.
-
-Shaffer's procedure rejects those hypotheses that have an unadjusted p-value $\le0.002381$.
-
-\pagebreak
-
-\subsubsection{P-values for $\alpha=0.10$}
-
-\begin{table}[!htp]
-\centering\scriptsize
-\begin{tabular}{cccccc}
-$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$&Holm&Shaffer\\
-\hline21&SIA-C vs. GFS-GCCL-C&4.589213&0.000004&0.004762&0.004762\\
-20&SIA-C vs. Chi-RW-C&4.194442&0.000027&0.005&0.006667\\
-19&AdaBoost.NC-C vs. SIA-C&3.010129&0.002611&0.005263&0.006667\\
-18&C45-C vs. GFS-GCCL-C&2.86209&0.004209&0.005556&0.006667\\
-17&SIA-C vs. iRProp+-c&2.763397&0.00572&0.005882&0.006667\\
-16&Ripper-C vs. GFS-GCCL-C&2.566012&0.010288&0.00625&0.006667\\
-15&C45-C vs. Chi-RW-C&2.467319&0.013613&0.006667&0.006667\\
-14&Ripper-C vs. Chi-RW-C&2.171241&0.029913&0.007143&0.007143\\
-13&Ripper-C vs. SIA-C&2.023201&0.043052&0.007692&0.007692\\
-12&GFS-GCCL-C vs. iRProp+-c&1.825816&0.067878&0.008333&0.008333\\
-11&C45-C vs. SIA-C&1.727123&0.084146&0.009091&0.009091\\
-10&AdaBoost.NC-C vs. GFS-GCCL-C&1.579084&0.114317&0.01&0.01\\
-9&Chi-RW-C vs. iRProp+-c&1.431045&0.152417&0.011111&0.011111\\
-8&AdaBoost.NC-C vs. C45-C&1.283006&0.19949&0.0125&0.0125\\
-7&AdaBoost.NC-C vs. Chi-RW-C&1.184313&0.236289&0.014286&0.014286\\
-6&C45-C vs. iRProp+-c&1.036274&0.300074&0.016667&0.016667\\
-5&AdaBoost.NC-C vs. Ripper-C&0.986928&0.323678&0.02&0.02\\
-4&Ripper-C vs. iRProp+-c&0.740196&0.459181&0.025&0.025\\
-3&GFS-GCCL-C vs. Chi-RW-C&0.394771&0.693012&0.033333&0.033333\\
-2&C45-C vs. Ripper-C&0.296078&0.76717&0.05&0.05\\
-1&AdaBoost.NC-C vs. iRProp+-c&0.246732&0.805116&0.1&0.1\\
-\hline
-\end{tabular}
-\caption{P-values Table for $\alpha=0.10$}
-\end{table}Holm's procedure rejects those hypotheses that have an unadjusted p-value $\le0.00625$.
-
-Shaffer's procedure rejects those hypotheses that have an unadjusted p-value $\le0.004762$.
-
-\pagebreak
-
-\subsubsection{Adjusted p-values}
-
-\begin{table}[!htp]
-\centering\scriptsize
+\scriptsize\centering
+\caption{Adjusted $p$-values}
 \begin{tabular}{ccccc}
 i&hypothesis&unadjusted $p$&$p_{Holm}$&$p_{Shaf}$\\
 \hline1&SIA-C vs .GFS-GCCL-C&0.000004&0.000093&0.000093\\
@@ -145,18 +90,42 @@ i&hypothesis&unadjusted $p$&$p_{Holm}$&$p_{Shaf}$\\
 21&AdaBoost.NC-C vs .iRProp+-c&0.805116&2.079036&2.079036\\
 \hline
 \end{tabular}
-\caption{Adjusted $p$-values}
 \end{table}
-
+\flushleft
 \pagebreak
 
-\section{Testing Phase Analysis}
 
 
+\section{Testing Phase}
+
+\subsection {Algorithm Accuracy}
+\begin {table}[!htp]
+\caption {Accuracy During Testing of the Algorithms}
+\centering
+\begin{tiny}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}\hline
+Data sets&AdaBoost.NC-C&C45-C&Ripper-C&SIA-C&GFS-GCCL-C&Chi-RW-C&iRProp+-c\\\hline
+bupa&0.7021252372&0.6699918677&0.5932095419&0.6295066414&0.5846381133&0.5787232312&0.713185145\\
+cleveland&0.5087549658&0.5248379151.0&0.4215750305&0.5257746703&0.5288789131.0&0.3802621961.0&0.580374755\\
+glass&0.5493051634&0.6744271912&0.6629650543&0.7186046803&0.6320572181.0&0.6004121965&0.5820380827\\
+haberman&0.7248387097&0.7316129032&0.467311828&0.6697849462&0.7320430108&0.7319354839&0.7577419355\\
+iris&0.66&0.96&0.9466666667&0.96&0.9533333333&0.9266666667&0.9533333333\\
+monk2&1.0&1.0&1.0&0.6251557806&0.9726744186&0.4289223323&0.9704016913\\
+new-thyroid&0.8188311688&0.9398268398&0.9257575758&0.9491341991.0&0.8612554113&0.8424242424&0.9396103896\\
+pima&0.741069895&0.7423173318&0.7083981808&0.716274515&0.6823189968&0.7305773174&0.7656794959\\
+vehicle&0.4562184874&0.7469187675&0.6866806723&0.5969327731.0&0.5722689076&0.6077310924&0.7305182073\\
+wine&0.7137254902&0.9490196078&0.9320261438&0.9437908497&0.910130719&0.9382352941.0&0.9774509804\\
+wisconsin&0.9768492939&0.9562572397&0.959089887&0.9679799288&0.9708791719&0.9125118784&0.9708364627\\
+\hline
+\end{tabular}
+\end{tiny}
+\end{table}
+\flushleft
 \subsection {Ranking}
 Average ranks obtained by applying the Friedman procedure to the accuracy reported by each of the algorithms during their testing phase.
 
 \begin{table}[!htp]
+\caption{Average Rankings of the Algorithms}
 \centering
 \begin{tabular}{|c|c|}\hline
 Algorithm&Ranking\\\hline
@@ -169,97 +138,17 @@ Chi-RW-C & 5.4545\\
 iRProp+-c & 2.5\\
 \hline
 \end{tabular}
-\caption{Average Rankings of the algorithms}
 \end{table}
-
-Friedman statistic considering reduction performance (distributed according to chi-square with 6 degrees of freedom: 17.551948.
-
+\flushleft
 P-value computed by Friedman Test: 0.007455103063423896.\newline
 
-
-
 \pagebreak
 
-\subsection{Post hoc comparisons}
-
-Results achieved on post hoc comparisons for $\alpha = 0.05$, $\alpha = 0.10$ and adjusted p-values.
-
-\subsubsection{P-values for $\alpha=0.05$}
+\subsection{Adjusted p-values}
 
 \begin{table}[!htp]
-\centering\scriptsize
-\begin{tabular}{cccccc}
-$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$&Holm&Shaffer\\
-\hline21&Chi-RW-C vs. iRProp+-c&3.207515&0.001339&0.002381&0.002381\\
-20&C45-C vs. Chi-RW-C&3.010129&0.002611&0.0025&0.003333\\
-19&AdaBoost.NC-C vs. iRProp+-c&2.516665&0.011847&0.002632&0.003333\\
-18&AdaBoost.NC-C vs. C45-C&2.31928&0.02038&0.002778&0.003333\\
-17&Ripper-C vs. iRProp+-c&2.31928&0.02038&0.002941&0.003333\\
-16&C45-C vs. Ripper-C&2.121894&0.033847&0.003125&0.003333\\
-15&SIA-C vs. Chi-RW-C&2.023201&0.043052&0.003333&0.003333\\
-14&GFS-GCCL-C vs. iRProp+-c&1.973855&0.048398&0.003571&0.003571\\
-13&C45-C vs. GFS-GCCL-C&1.77647&0.075656&0.003846&0.003846\\
-12&AdaBoost.NC-C vs. SIA-C&1.332352&0.182744&0.004167&0.004167\\
-11&GFS-GCCL-C vs. Chi-RW-C&1.233659&0.21733&0.004545&0.004545\\
-10&SIA-C vs. iRProp+-c&1.184313&0.236289&0.005&0.005\\
-9&Ripper-C vs. SIA-C&1.134967&0.256389&0.005556&0.005556\\
-8&C45-C vs. SIA-C&0.986928&0.323678&0.00625&0.00625\\
-7&Ripper-C vs. Chi-RW-C&0.888235&0.374414&0.007143&0.007143\\
-6&SIA-C vs. GFS-GCCL-C&0.789542&0.429795&0.008333&0.008333\\
-5&AdaBoost.NC-C vs. Chi-RW-C&0.690849&0.48966&0.01&0.01\\
-4&AdaBoost.NC-C vs. GFS-GCCL-C&0.54281&0.587261&0.0125&0.0125\\
-3&Ripper-C vs. GFS-GCCL-C&0.345425&0.729775&0.016667&0.016667\\
-2&AdaBoost.NC-C vs. Ripper-C&0.197386&0.843526&0.025&0.025\\
-1&C45-C vs. iRProp+-c&0.197386&0.843526&0.05&0.05\\
-\hline
-\end{tabular}
-\caption{P-values Table for $\alpha=0.05$}
-\end{table}Holm's procedure rejects those hypotheses that have an unadjusted p-value $\le0.0025$.
-
-Shaffer's procedure rejects those hypotheses that have an unadjusted p-value $\le0.002381$.
-
-\pagebreak
-
-\subsubsection{P-values for $\alpha=0.10$}
-
-\begin{table}[!htp]
-\centering\scriptsize
-\begin{tabular}{cccccc}
-$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$&Holm&Shaffer\\
-\hline21&Chi-RW-C vs. iRProp+-c&3.207515&0.001339&0.004762&0.004762\\
-20&C45-C vs. Chi-RW-C&3.010129&0.002611&0.005&0.006667\\
-19&AdaBoost.NC-C vs. iRProp+-c&2.516665&0.011847&0.005263&0.006667\\
-18&AdaBoost.NC-C vs. C45-C&2.31928&0.02038&0.005556&0.006667\\
-17&Ripper-C vs. iRProp+-c&2.31928&0.02038&0.005882&0.006667\\
-16&C45-C vs. Ripper-C&2.121894&0.033847&0.00625&0.006667\\
-15&SIA-C vs. Chi-RW-C&2.023201&0.043052&0.006667&0.006667\\
-14&GFS-GCCL-C vs. iRProp+-c&1.973855&0.048398&0.007143&0.007143\\
-13&C45-C vs. GFS-GCCL-C&1.77647&0.075656&0.007692&0.007692\\
-12&AdaBoost.NC-C vs. SIA-C&1.332352&0.182744&0.008333&0.008333\\
-11&GFS-GCCL-C vs. Chi-RW-C&1.233659&0.21733&0.009091&0.009091\\
-10&SIA-C vs. iRProp+-c&1.184313&0.236289&0.01&0.01\\
-9&Ripper-C vs. SIA-C&1.134967&0.256389&0.011111&0.011111\\
-8&C45-C vs. SIA-C&0.986928&0.323678&0.0125&0.0125\\
-7&Ripper-C vs. Chi-RW-C&0.888235&0.374414&0.014286&0.014286\\
-6&SIA-C vs. GFS-GCCL-C&0.789542&0.429795&0.016667&0.016667\\
-5&AdaBoost.NC-C vs. Chi-RW-C&0.690849&0.48966&0.02&0.02\\
-4&AdaBoost.NC-C vs. GFS-GCCL-C&0.54281&0.587261&0.025&0.025\\
-3&Ripper-C vs. GFS-GCCL-C&0.345425&0.729775&0.033333&0.033333\\
-2&AdaBoost.NC-C vs. Ripper-C&0.197386&0.843526&0.05&0.05\\
-1&C45-C vs. iRProp+-c&0.197386&0.843526&0.1&0.1\\
-\hline
-\end{tabular}
-\caption{P-values Table for $\alpha=0.10$}
-\end{table}Holm's procedure rejects those hypotheses that have an unadjusted p-value $\le0.005263$.
-
-Shaffer's procedure rejects those hypotheses that have an unadjusted p-value $\le0.004762$.
-
-\pagebreak
-
-\subsubsection{Adjusted p-values}
-
-\begin{table}[!htp]
-\centering\scriptsize
+\scriptsize\centering
+\caption{Adjusted $p$-values}
 \begin{tabular}{ccccc}
 i&hypothesis&unadjusted $p$&$p_{Holm}$&$p_{Shaf}$\\
 \hline1&Chi-RW-C vs .iRProp+-c&0.001339&0.028116&0.028116\\
@@ -285,9 +174,11 @@ i&hypothesis&unadjusted $p$&$p_{Holm}$&$p_{Shaf}$\\
 21&C45-C vs .iRProp+-c&0.843526&2.620901&2.620901\\
 \hline
 \end{tabular}
-\caption{Adjusted $p$-values}
 \end{table}
+\flushleft
 
+\section {Analysis}
+It's pretty clear to us that AdaBoost.NC-C, C45-C, and .GFS-GCCL-C are among the top performers for these algorithms, easily outperforming their competition. Also to note that while during the training phase Ripper-C was a little bit lower on the chain, it performed much better during the testing phase. The Chi-RW-C algorithm seems to have experienced the opposite, with its accuracy decreasing as it left the training phase.
 
 %\end{landscape}
 \end{document}
