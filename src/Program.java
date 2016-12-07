@@ -22,7 +22,6 @@ public class Program {
 		// read in file from arguments
 		BufferedReader br = null;
 		String line = "";
-		Classifier C = new Classifier();
 		
 		try {
 			String file_name = args[0];
@@ -65,8 +64,6 @@ public class Program {
 							Float.parseFloat(data[24]),
 							Integer.parseInt(data[25]));
 						items.add(item);
-						
-						C.train(items);
 					} else {
 						System.out.println("Data incorrectly formated.");
 					}
@@ -87,6 +84,8 @@ public class Program {
 				}
 			}
 		}
+		
+		Classifier.train(items);
 	}
 	
 	private static void usage() {
